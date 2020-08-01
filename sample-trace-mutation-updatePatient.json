@@ -1,0 +1,116 @@
+[
+  {
+    "duration": 75,
+    "start": "2020-07-28T09:41:41.914480",
+    "end": "2020-07-28T09:41:41.989625",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[order:94d5827a-c966-45b9-8f3a-b1e39082e858, null, false]`"
+  },
+  {
+    "duration": 58,
+    "start": "2020-07-28T09:41:41.989679",
+    "end": "2020-07-28T09:41:42.048102",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[order:94d5827a-c966-45b9-8f3a-b1e39082e858, null, false]`"
+  },
+  {
+    "duration": 135,
+    "start": "2020-07-28T09:41:41.913985",
+    "end": "2020-07-28T09:41:42.049150",
+    "info": "Invoked DataSource method `getByIdNonNull` with args `[ID(rawValue\u003dorder:94d5827a-c966-45b9-8f3a-b1e39082e858), class com.medneo.center.schema.Order]`"
+  },
+  {
+    "duration": 19,
+    "start": "2020-07-28T09:41:42.049200",
+    "end": "2020-07-28T09:41:42.068379",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[order:94d5827a-c966-45b9-8f3a-b1e39082e858:centerProcess:5a798e0c-fc85-401e-ba6f-b1242555b2a5, null, false]`"
+  },
+  {
+    "duration": 16,
+    "start": "2020-07-28T09:41:42.068411",
+    "end": "2020-07-28T09:41:42.084975",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[order:94d5827a-c966-45b9-8f3a-b1e39082e858:centerProcess:5a798e0c-fc85-401e-ba6f-b1242555b2a5, null, false]`"
+  },
+  {
+    "duration": 36,
+    "start": "2020-07-28T09:41:42.105117",
+    "end": "2020-07-28T09:41:42.141952",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[order:94d5827a-c966-45b9-8f3a-b1e39082e858, null, false]`"
+  },
+  {
+    "duration": 59,
+    "start": "2020-07-28T09:41:42.141998",
+    "end": "2020-07-28T09:41:42.201273",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[order:94d5827a-c966-45b9-8f3a-b1e39082e858, null, false]`"
+  },
+  {
+    "duration": 97,
+    "start": "2020-07-28T09:41:42.105016",
+    "end": "2020-07-28T09:41:42.202275",
+    "info": "Invoked DataSource method `getByIdNonNull` with args `[ID(rawValue\u003dorder:94d5827a-c966-45b9-8f3a-b1e39082e858), class com.medneo.center.schema.Order]`"
+  },
+  {
+    "duration": 20,
+    "start": "2020-07-28T09:41:42.202322",
+    "end": "2020-07-28T09:41:42.222460",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[order:94d5827a-c966-45b9-8f3a-b1e39082e858:centerProcess:5a798e0c-fc85-401e-ba6f-b1242555b2a5, null, false]`"
+  },
+  {
+    "duration": 30,
+    "start": "2020-07-28T09:41:42.222491",
+    "end": "2020-07-28T09:41:42.253432",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[order:94d5827a-c966-45b9-8f3a-b1e39082e858:centerProcess:5a798e0c-fc85-401e-ba6f-b1242555b2a5, null, false]`"
+  },
+  {
+    "duration": 22,
+    "start": "2020-07-28T09:41:42.255917",
+    "end": "2020-07-28T09:41:42.278899",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[order:94d5827a-c966-45b9-8f3a-b1e39082e858:patient:51e7c086-e768-4300-bc8f-7e89c402377a, null, false]`"
+  },
+  {
+    "duration": 34,
+    "start": "2020-07-28T09:41:42.278944",
+    "end": "2020-07-28T09:41:42.313068",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[order:94d5827a-c966-45b9-8f3a-b1e39082e858:patient:51e7c086-e768-4300-bc8f-7e89c402377a, null, false]`"
+  },
+  {
+    "duration": 92,
+    "start": "2020-07-28T09:41:42.320431",
+    "end": "2020-07-28T09:41:42.413024",
+    "info": "Invoked BlockingMadDBHttpClient method `bulkDocs` with args `[[{\"sex\":\"MALE\",\"dateOfBirth\":\"2012-12-24\",\"name\":{\"givenName\":\"Sagen\",\"familyName\":\"Karl\",\"namePrefix\":null,\"middleNames\":[],\"nameSuffix\":null,\"nickName\":null},\"contacts\":[{\"content\":{\"_type\":\"contact_email\",\"value\":\"karl.sagen@gmail.com\"},\"contactType\":\"PRIMARY\",\"label\":null},{\"content\":{\"_type\":\"contact_phone\",\"value\":\"01893459273\"},\"contactType\":\"PRIMARY\",\"label\":null}],\"address\":{\"countryCode\":\"DE\",\"postalCode\":\"80992\",\"city\":\"Munich\",\"street\":\"Menzinger Str. 64\",\"addition\":null},\"_rev\":\"5-64e32118691f46c2a0b2b74b17ce27e1\",\"_type\":\"order_patient\",\"_id\":\"order:94d5827a-c966-45b9-8f3a-b1e39082e858:patient:51e7c086-e768-4300-bc8f-7e89c402377a\"}, {\"currentState\":\"WAITING_FOR_PREPARATION\",\"possibleTransitions\":[\"CHECKIN_PREPARATION\",\"ABORT\"],\"_rev\":\"2-74b4bb1a167c4d7aae42025b9b5b2cd4\",\"_type\":\"center_process\",\"_id\":\"order:94d5827a-c966-45b9-8f3a-b1e39082e858:centerProcess:5a798e0c-fc85-401e-ba6f-b1242555b2a5\"}, {\"center\":{\"code\":\"dev00\",\"timeZoneId\":\"Europe/Berlin\",\"name\":\"Center M94\",\"externalRef\":\"center:47e94e29-f2a3-4b13-b7cb-40870dd20072\"},\"admissionDateTime\":\"2020-07-28T09:28:15.846472Z[GMT]\",\"examinationDateTime\":\"2020-07-28T09:28:15.846482Z[GMT]\",\"duration\":{\"unit\":\"SECONDS\",\"value\":900},\"medicalReferences\":{\"patientModule\":{\"patientID\":\"123456787612543\",\"issuerOfPatientID\":\"medneo\"},\"generalStudyModule\":{\"studyInstanceUID\":\"2.16.234324324\",\"accessionNumber\":\"1234567890123545\"}},\"cancellation\":null,\"abortData\":null,\"patient\":\"order:94d5827a-c966-45b9-8f3a-b1e39082e858:patient:51e7c086-e768-4300-bc8f-7e89c402377a\",\"medicalData\":\"order:94d5827a-c966-45b9-8f3a-b1e39082e858:medicalData:89da6f4f-27aa-494d-b85b-146d3a266ef7\",\"insurance\":\"order:94d5827a-c966-45b9-8f3a-b1e39082e858:insurance:f94a715f-0f76-4c1b-8328-22f1e0904c2d\",\"accountingData\":\"order:94d5827a-c966-45b9-8f3a-b1e39082e858:accountingData:7a0f41ec-be9a-4f28-a7e0-fd7f821b96db\",\"examinationData\":\"order:94d5827a-c966-45b9-8f3a-b1e39082e858:examinationData:83870656-14d7-4e42-932a-cb688f4da2b8\",\"examinationTechnique\":\"order:94d5827a-c966-45b9-8f3a-b1e39082e858:examinationTechnique:d01a5562-9c5e-413d-b60a-84354f4367dc\",\"admissionChecklist\":\"order:94d5827a-c966-45b9-8f3a-b1e39082e858:admissionChecklist:650a158a-b239-4d59-9127-83252c30e9cd\",\"medicationData\":\"order:94d5827a-c966-45b9-8f3a-b1e39082e858:medicationData:008c8c46-2f1d-49ae-84cc-4ee9649b78ed\",\"referrer\":\"order:94d5827a-c966-45b9-8f3a-b1e39082e858:referrer:d3fa093f-3c0d-4724-9d81-9c42ce638aa4\",\"orderData\":\"order:94d5827a-c966-45b9-8f3a-b1e39082e858:orderData:86ab8fb9-858e-43bc-86a6-8a8f6a5c597f\",\"centerProcess\":\"order:94d5827a-c966-45b9-8f3a-b1e39082e858:centerProcess:5a798e0c-fc85-401e-ba6f-b1242555b2a5\",\"notes\":[\"order:94d5827a-c966-45b9-8f3a-b1e39082e858:notes:d7dbdda2-5977-4654-9f57-e26801acab27\"],\"requestedReporter\":[\"order:94d5827a-c966-45b9-8f3a-b1e39082e858:requestedReporter:a04a70c9-5160-4d9b-b496-8de5409f77bb\"],\"_rev\":\"1-77fac944c755415da6c586b3058b8ff6\",\"_type\":\"order\",\"_id\":\"order:94d5827a-c966-45b9-8f3a-b1e39082e858\"}], false, true]`"
+  },
+  {
+    "duration": 68,
+    "start": "2020-07-28T09:41:42.413065",
+    "end": "2020-07-28T09:41:42.481771",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[order:94d5827a-c966-45b9-8f3a-b1e39082e858, null, false]`"
+  },
+  {
+    "duration": 63,
+    "start": "2020-07-28T09:41:42.481864",
+    "end": "2020-07-28T09:41:42.545630",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[order:94d5827a-c966-45b9-8f3a-b1e39082e858, null, false]`"
+  },
+  {
+    "duration": 232,
+    "start": "2020-07-28T09:41:42.314110",
+    "end": "2020-07-28T09:41:42.546581",
+    "info": "Invoked DataSource method `upsert` with args `[BaseEntity(_type\u003d\u0027order\u0027, _id\u003dID(rawValue\u003dorder:94d5827a-c966-45b9-8f3a-b1e39082e858), _createdAt\u003d2020-07-28T09:28:16.391Z[GMT], _modifiedAt\u003d2020-07-28T09:28:16.391Z[GMT], _rev\u003dRevision(rawValue\u003d1-77fac944c755415da6c586b3058b8ff6))]`"
+  },
+  {
+    "duration": 16,
+    "start": "2020-07-28T09:41:42.546609",
+    "end": "2020-07-28T09:41:42.563272",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[order:94d5827a-c966-45b9-8f3a-b1e39082e858:patient:51e7c086-e768-4300-bc8f-7e89c402377a, null, false]`"
+  },
+  {
+    "duration": 11,
+    "start": "2020-07-28T09:41:42.563307",
+    "end": "2020-07-28T09:41:42.575300",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[order:94d5827a-c966-45b9-8f3a-b1e39082e858:patient:51e7c086-e768-4300-bc8f-7e89c402377a, null, false]`"
+  },
+  {
+    "duration": 670,
+    "start": "2020-07-28T09:41:41.909380",
+    "end": "2020-07-28T09:41:42.579718",
+    "info": "Http Req http://localhost:8080/graphql with Body {\"operationName\":\"updatePatient\",\"variables\":{\"orderId\":\"order:94d5827a-c966-45b9-8f3a-b1e39082e858\",\"input\":{\"name\":{\"familyName\":\"Karl\",\"givenName\":\"Sagen\",\"namePrefix\":null,\"middleNames\":[]},\"address\":{\"countryCode\":\"DE\",\"postalCode\":\"81112\",\"city\":\"Munich\",\"street\":\"Frankfurter 54\"},\"dateOfBirth\":\"2012-12-24\",\"sex\":\"MALE\",\"emailContacts\":[{\"contactType\":\"PRIMARY\",\"email\":\"karl.sagen@gmail.com\"}],\"phoneContacts\":[{\"contactType\":\"PRIMARY\",\"number\":\"01893459273\"}],\"addressContacts\":[],\"faxContacts\":[],\"mobileContacts\":[],\"rev\":\"8-672044e642414d68ae0d3d3b52148109\"}},\"query\":\"mutation updatePatient($orderId: ID!, $input: PatientInput!) {\\n  updatePatient(orderId: $orderId, update: $input) {\\n    ...PatientFields\\n    __typename\\n  }\\n}\\n\\nfragment PatientFields on Patient {\\n  id\\n  rev\\n  sex\\n  dateOfBirth\\n  name {\\n    familyName\\n    givenName\\n    namePrefix\\n    middleNames\\n    __typename\\n  }\\n  address {\\n    ...AddressFields\\n    __typename\\n  }\\n  emailContacts {\\n    contactType\\n    email\\n    label\\n    __typename\\n  }\\n  phoneContacts {\\n    contactType\\n    label\\n    number\\n    __typename\\n  }\\n  addressContacts {\\n    contactType\\n    label\\n    address {\\n      ...AddressFields\\n      __typename\\n    }\\n    __typename\\n  }\\n  faxContacts {\\n    contactType\\n    label\\n    number\\n    __typename\\n  }\\n  mobileContacts {\\n    contactType\\n    label\\n    number\\n    __typename\\n  }\\n  __typename\\n}\\n\\nfragment AddressFields on Address {\\n  addition\\n  city\\n  countryCode\\n  street\\n  postalCode\\n  __typename\\n}\\n\"}"
+  }
+]

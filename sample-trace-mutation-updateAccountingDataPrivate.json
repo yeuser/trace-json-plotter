@@ -1,0 +1,128 @@
+[
+  {
+    "duration": 45,
+    "start": "2020-07-28T09:34:41.718590",
+    "end": "2020-07-28T09:34:41.763787",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[order:94d5827a-c966-45b9-8f3a-b1e39082e858, null, false]`"
+  },
+  {
+    "duration": 46,
+    "start": "2020-07-28T09:34:41.763879",
+    "end": "2020-07-28T09:34:41.810731",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[order:94d5827a-c966-45b9-8f3a-b1e39082e858, null, false]`"
+  },
+  {
+    "duration": 98,
+    "start": "2020-07-28T09:34:41.718538",
+    "end": "2020-07-28T09:34:41.816672",
+    "info": "Invoked DataSource method `getByIdNonNull` with args `[ID(rawValue\u003dorder:94d5827a-c966-45b9-8f3a-b1e39082e858), class com.medneo.center.schema.Order]`"
+  },
+  {
+    "duration": 47,
+    "start": "2020-07-28T09:34:41.817128",
+    "end": "2020-07-28T09:34:41.864857",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[order:94d5827a-c966-45b9-8f3a-b1e39082e858:centerProcess:5a798e0c-fc85-401e-ba6f-b1242555b2a5, null, false]`"
+  },
+  {
+    "duration": 23,
+    "start": "2020-07-28T09:34:41.864947",
+    "end": "2020-07-28T09:34:41.888207",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[order:94d5827a-c966-45b9-8f3a-b1e39082e858:centerProcess:5a798e0c-fc85-401e-ba6f-b1242555b2a5, null, false]`"
+  },
+  {
+    "duration": 61,
+    "start": "2020-07-28T09:34:41.891831",
+    "end": "2020-07-28T09:34:41.953821",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[order:94d5827a-c966-45b9-8f3a-b1e39082e858, null, false]`"
+  },
+  {
+    "duration": 45,
+    "start": "2020-07-28T09:34:41.953861",
+    "end": "2020-07-28T09:34:41.999190",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[order:94d5827a-c966-45b9-8f3a-b1e39082e858, null, false]`"
+  },
+  {
+    "duration": 109,
+    "start": "2020-07-28T09:34:41.891800",
+    "end": "2020-07-28T09:34:42.000949",
+    "info": "Invoked DataSource method `getByIdNonNull` with args `[ID(rawValue\u003dorder:94d5827a-c966-45b9-8f3a-b1e39082e858), class com.medneo.center.schema.Order]`"
+  },
+  {
+    "duration": 8,
+    "start": "2020-07-28T09:34:42.001021",
+    "end": "2020-07-28T09:34:42.009801",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[order:94d5827a-c966-45b9-8f3a-b1e39082e858:centerProcess:5a798e0c-fc85-401e-ba6f-b1242555b2a5, null, false]`"
+  },
+  {
+    "duration": 17,
+    "start": "2020-07-28T09:34:42.009856",
+    "end": "2020-07-28T09:34:42.026992",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[order:94d5827a-c966-45b9-8f3a-b1e39082e858:centerProcess:5a798e0c-fc85-401e-ba6f-b1242555b2a5, null, false]`"
+  },
+  {
+    "duration": 53,
+    "start": "2020-07-28T09:34:42.030945",
+    "end": "2020-07-28T09:34:42.084354",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[order:94d5827a-c966-45b9-8f3a-b1e39082e858:accountingData:7a0f41ec-be9a-4f28-a7e0-fd7f821b96db, null, false]`"
+  },
+  {
+    "duration": 33,
+    "start": "2020-07-28T09:34:42.084394",
+    "end": "2020-07-28T09:34:42.117836",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[order:94d5827a-c966-45b9-8f3a-b1e39082e858:accountingData:7a0f41ec-be9a-4f28-a7e0-fd7f821b96db, null, false]`"
+  },
+  {
+    "duration": 178,
+    "start": "2020-07-28T09:34:42.136492",
+    "end": "2020-07-28T09:34:42.315169",
+    "info": "Invoked BlockingMadDBHttpClient method `bulkDocs` with args `[[{\"contractorCode\":\"123456\",\"name\":{\"givenName\":\"Sara\",\"familyName\":\"Engel\",\"namePrefix\":null,\"middleNames\":[],\"nameSuffix\":null,\"nickName\":null},\"address\":null,\"insurer\":\"Debeka\",\"insurerNumber\":\"12345678\",\"accounting\":\"accounting:f4c43854-fbf3-463c-bcce-ecaed57c408c\",\"billing\":{\"subject\":{\"givenName\":\"Hugel\",\"familyName\":\"Karl\",\"namePrefix\":\"Dr\",\"middleNames\":[\"A\"],\"nameSuffix\":null,\"nickName\":null},\"address\":{\"countryCode\":\"DE\",\"postalCode\":\"90450\",\"city\":\"Bamberg\",\"street\":\"Lugbank 4\",\"addition\":null},\"contacts\":[]},\"_rev\":\"2-bdb72e0322004134935dea2ec67a10b9\",\"_type\":\"accounting_data_private\",\"_id\":\"order:94d5827a-c966-45b9-8f3a-b1e39082e858:accountingData:7a0f41ec-be9a-4f28-a7e0-fd7f821b96db\"}, {\"currentState\":\"WAITING_FOR_PREPARATION\",\"possibleTransitions\":[\"CHECKIN_PREPARATION\",\"ABORT\"],\"_rev\":\"2-74b4bb1a167c4d7aae42025b9b5b2cd4\",\"_type\":\"center_process\",\"_id\":\"order:94d5827a-c966-45b9-8f3a-b1e39082e858:centerProcess:5a798e0c-fc85-401e-ba6f-b1242555b2a5\"}, {\"center\":{\"code\":\"dev00\",\"timeZoneId\":\"Europe/Berlin\",\"name\":\"Center M94\",\"externalRef\":\"center:47e94e29-f2a3-4b13-b7cb-40870dd20072\"},\"admissionDateTime\":\"2020-07-28T09:28:15.846472Z[GMT]\",\"examinationDateTime\":\"2020-07-28T09:28:15.846482Z[GMT]\",\"duration\":{\"unit\":\"SECONDS\",\"value\":900},\"medicalReferences\":{\"patientModule\":{\"patientID\":\"123456787612543\",\"issuerOfPatientID\":\"medneo\"},\"generalStudyModule\":{\"studyInstanceUID\":\"2.16.234324324\",\"accessionNumber\":\"1234567890123545\"}},\"cancellation\":null,\"abortData\":null,\"patient\":\"order:94d5827a-c966-45b9-8f3a-b1e39082e858:patient:51e7c086-e768-4300-bc8f-7e89c402377a\",\"medicalData\":\"order:94d5827a-c966-45b9-8f3a-b1e39082e858:medicalData:89da6f4f-27aa-494d-b85b-146d3a266ef7\",\"insurance\":\"order:94d5827a-c966-45b9-8f3a-b1e39082e858:insurance:f94a715f-0f76-4c1b-8328-22f1e0904c2d\",\"accountingData\":\"order:94d5827a-c966-45b9-8f3a-b1e39082e858:accountingData:7a0f41ec-be9a-4f28-a7e0-fd7f821b96db\",\"examinationData\":\"order:94d5827a-c966-45b9-8f3a-b1e39082e858:examinationData:83870656-14d7-4e42-932a-cb688f4da2b8\",\"examinationTechnique\":\"order:94d5827a-c966-45b9-8f3a-b1e39082e858:examinationTechnique:d01a5562-9c5e-413d-b60a-84354f4367dc\",\"admissionChecklist\":\"order:94d5827a-c966-45b9-8f3a-b1e39082e858:admissionChecklist:650a158a-b239-4d59-9127-83252c30e9cd\",\"medicationData\":\"order:94d5827a-c966-45b9-8f3a-b1e39082e858:medicationData:008c8c46-2f1d-49ae-84cc-4ee9649b78ed\",\"referrer\":\"order:94d5827a-c966-45b9-8f3a-b1e39082e858:referrer:d3fa093f-3c0d-4724-9d81-9c42ce638aa4\",\"orderData\":\"order:94d5827a-c966-45b9-8f3a-b1e39082e858:orderData:86ab8fb9-858e-43bc-86a6-8a8f6a5c597f\",\"centerProcess\":\"order:94d5827a-c966-45b9-8f3a-b1e39082e858:centerProcess:5a798e0c-fc85-401e-ba6f-b1242555b2a5\",\"notes\":[\"order:94d5827a-c966-45b9-8f3a-b1e39082e858:notes:d7dbdda2-5977-4654-9f57-e26801acab27\"],\"requestedReporter\":[\"order:94d5827a-c966-45b9-8f3a-b1e39082e858:requestedReporter:a04a70c9-5160-4d9b-b496-8de5409f77bb\"],\"_rev\":\"1-77fac944c755415da6c586b3058b8ff6\",\"_type\":\"order\",\"_id\":\"order:94d5827a-c966-45b9-8f3a-b1e39082e858\"}], false, true]`"
+  },
+  {
+    "duration": 65,
+    "start": "2020-07-28T09:34:42.315209",
+    "end": "2020-07-28T09:34:42.380231",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[order:94d5827a-c966-45b9-8f3a-b1e39082e858, null, false]`"
+  },
+  {
+    "duration": 52,
+    "start": "2020-07-28T09:34:42.380336",
+    "end": "2020-07-28T09:34:42.432955",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[order:94d5827a-c966-45b9-8f3a-b1e39082e858, null, false]`"
+  },
+  {
+    "duration": 312,
+    "start": "2020-07-28T09:34:42.121575",
+    "end": "2020-07-28T09:34:42.434408",
+    "info": "Invoked DataSource method `upsert` with args `[BaseEntity(_type\u003d\u0027order\u0027, _id\u003dID(rawValue\u003dorder:94d5827a-c966-45b9-8f3a-b1e39082e858), _createdAt\u003d2020-07-28T09:28:16.391Z[GMT], _modifiedAt\u003d2020-07-28T09:28:16.391Z[GMT], _rev\u003dRevision(rawValue\u003d1-77fac944c755415da6c586b3058b8ff6))]`"
+  },
+  {
+    "duration": 15,
+    "start": "2020-07-28T09:34:42.434451",
+    "end": "2020-07-28T09:34:42.449802",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[order:94d5827a-c966-45b9-8f3a-b1e39082e858:accountingData:7a0f41ec-be9a-4f28-a7e0-fd7f821b96db, null, false]`"
+  },
+  {
+    "duration": 39,
+    "start": "2020-07-28T09:34:42.449849",
+    "end": "2020-07-28T09:34:42.489170",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[order:94d5827a-c966-45b9-8f3a-b1e39082e858:accountingData:7a0f41ec-be9a-4f28-a7e0-fd7f821b96db, null, false]`"
+  },
+  {
+    "duration": 6,
+    "start": "2020-07-28T09:34:42.490552",
+    "end": "2020-07-28T09:34:42.496668",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[accounting:f4c43854-fbf3-463c-bcce-ecaed57c408c, null, false]`"
+  },
+  {
+    "duration": 15,
+    "start": "2020-07-28T09:34:42.496776",
+    "end": "2020-07-28T09:34:42.512011",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[accounting:f4c43854-fbf3-463c-bcce-ecaed57c408c, null, false]`"
+  },
+  {
+    "duration": 811,
+    "start": "2020-07-28T09:34:41.710959",
+    "end": "2020-07-28T09:34:42.522174",
+    "info": "Http Req http://localhost:8080/graphql with Body {\"operationName\":\"updateAccountingDataPrivate\",\"variables\":{\"orderId\":\"order:94d5827a-c966-45b9-8f3a-b1e39082e858\",\"input\":{\"id\":\"order:94d5827a-c966-45b9-8f3a-b1e39082e858:accountingData:7a0f41ec-be9a-4f28-a7e0-fd7f821b96db\",\"accountingId\":\"accounting:49a7d3e4-4da3-4cf5-82e5-15b66c1f8d81\",\"insurer\":\"Debeka\",\"insurerNumber\":\"12345678\",\"contractorCode\":\"123456\",\"rev\":\"4-0dbe93c8287445ff8b71171f54828e26\",\"name\":{\"familyName\":\"Engel x\",\"givenName\":\"Sara\",\"middleNames\":[]},\"billing\":{\"address\":{\"city\":\"Bamberg\",\"countryCode\":\"DE\",\"postalCode\":\"94500\",\"street\":\"Lugbank 4\"},\"subject\":{\"familyName\":\"Karl s\",\"givenName\":\"Hugel\",\"namePrefix\":\"Dr\",\"middleNames\":\"A\"}}}},\"query\":\"mutation updateAccountingDataPrivate($orderId: ID!, $input: AccountingDataPrivateUpdateInput!) {\\n  updateAccountingDataPrivate(orderId: $orderId, input: $input) {\\n    id\\n    rev\\n    accounting {\\n      ...AccountingFields\\n      __typename\\n    }\\n    billing {\\n      ...BillingFields\\n      __typename\\n    }\\n    ... on AccountingDataPrivate {\\n      id\\n      rev\\n      accountingId\\n      contractorCode\\n      insurer\\n      insurerNumber\\n      name {\\n        familyName\\n        givenName\\n        __typename\\n      }\\n      __typename\\n    }\\n    __typename\\n  }\\n}\\n\\nfragment AccountingFields on Accounting {\\n  id\\n  type\\n  countryCode\\n  name\\n  description\\n  rev\\n  __typename\\n}\\n\\nfragment BillingFields on Billing {\\n  address {\\n    ...AddressFields\\n    __typename\\n  }\\n  emailContact {\\n    ...BillingContactFields\\n    __typename\\n  }\\n  faxContact {\\n    ...BillingContactFields\\n    __typename\\n  }\\n  subject {\\n    ...SubjectFields\\n    __typename\\n  }\\n  __typename\\n}\\n\\nfragment AddressFields on Address {\\n  addition\\n  city\\n  countryCode\\n  street\\n  postalCode\\n  __typename\\n}\\n\\nfragment BillingContactFields on Contact {\\n  contactType\\n  label\\n  ... on EmailContact {\\n    email\\n    __typename\\n  }\\n  ... on FaxContact {\\n    number\\n    __typename\\n  }\\n  __typename\\n}\\n\\nfragment SubjectFields on Name {\\n  familyName\\n  namePrefix\\n  givenName\\n  middleNames\\n  __typename\\n}\\n\"}"
+  }
+]

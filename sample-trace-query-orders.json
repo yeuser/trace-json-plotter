@@ -1,0 +1,14 @@
+[
+  {
+    "duration": 253,
+    "start": "2020-07-28T09:31:07.182115",
+    "end": "2020-07-28T09:31:07.436041",
+    "info": "Calling FindOrdersByFilterUseCase.execute with Input FilterInput(dateOfBirth\u003dnull, familyName\u003dnull, givenName\u003dnull, admissionDateTimeFrom\u003dnull, admissionDateTimeTo\u003dnull, examinationDateTimeFrom\u003d2020-07-28T00:00+02:00, examinationDateTimeTo\u003d2020-07-28T23:59:59+02:00, processStates\u003d[], sortingInput\u003dSortingInput(field\u003dEXAMINATION_DATE, order\u003dASC))"
+  },
+  {
+    "duration": 475,
+    "start": "2020-07-28T09:31:07.171803",
+    "end": "2020-07-28T09:31:07.646900",
+    "info": "Http Req http://localhost:8080/graphql with Body {\"operationName\":\"orders\",\"variables\":{\"filter\":{\"dateOfBirth\":null,\"familyName\":null,\"givenName\":null,\"examinationDateTimeFrom\":\"2020-07-28T00:00:00+02:00\",\"examinationDateTimeTo\":\"2020-07-28T23:59:59+02:00\"},\"orderBy\":{\"direction\":\"ASC\",\"field\":\"EXAMINATION_DATE\"}},\"query\":\"query orders($filter: SearchOrderFilterInput!, $orderBy: SearchOrderByInput) {\\n  orders(filter: $filter, orderBy: $orderBy) {\\n    totalCount\\n    nodes {\\n      id\\n      process {\\n        currentState\\n        __typename\\n      }\\n      accountingData {\\n        accounting {\\n          type\\n          __typename\\n        }\\n        __typename\\n      }\\n      examinationDateTime\\n      duration\\n      cancellation {\\n        ...CancellationFields\\n        __typename\\n      }\\n      patient {\\n        dateOfBirth\\n        name {\\n          ...NameFields\\n          __typename\\n        }\\n        __typename\\n      }\\n      examinationData {\\n        bodyRegion {\\n          ...BodyRegionFields\\n          __typename\\n        }\\n        modality {\\n          type\\n          __typename\\n        }\\n        __typename\\n      }\\n      reporter {\\n        physician {\\n          name {\\n            ...NameFields\\n            __typename\\n          }\\n          __typename\\n        }\\n        __typename\\n      }\\n      __typename\\n    }\\n    __typename\\n  }\\n}\\n\\nfragment CancellationFields on Cancellation {\\n  note\\n  reason\\n  __typename\\n}\\n\\nfragment NameFields on Name {\\n  familyName\\n  givenName\\n  middleNames\\n  namePrefix\\n  nameSuffix\\n  nickName\\n  __typename\\n}\\n\\nfragment BodyRegionFields on BodyRegion {\\n  id\\n  code\\n  laterality\\n  __typename\\n}\\n\"}"
+  }
+]

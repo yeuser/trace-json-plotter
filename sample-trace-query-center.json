@@ -1,0 +1,1220 @@
+[
+  {
+    "duration": 107,
+    "start": "2020-07-28T09:30:15.761751",
+    "end": "2020-07-28T09:30:15.868838",
+    "info": "Invoked BlockingMadDBHttpClient method `allDocsByType` with args `[organization, false, 0, 500]`"
+  },
+  {
+    "duration": 295,
+    "start": "2020-07-28T09:30:15.869499",
+    "end": "2020-07-28T09:30:16.164527",
+    "info": "Invoked BlockingMadDBHttpClient method `bulkGet` with args `[[com.medneo.maddb.http.client.DocumentRevision$InputWithDocument@27ceb063, com.medneo.maddb.http.client.DocumentRevision$InputWithDocument@53d46a91, com.medneo.maddb.http.client.DocumentRevision$InputWithDocument@2d04837c, com.medneo.maddb.http.client.DocumentRevision$InputWithDocument@2197798f, com.medneo.maddb.http.client.DocumentRevision$InputWithDocument@73888876, com.medneo.maddb.http.client.DocumentRevision$InputWithDocument@3f8f474], true]`"
+  },
+  {
+    "duration": 499,
+    "start": "2020-07-28T09:30:15.761653",
+    "end": "2020-07-28T09:30:16.260934",
+    "info": "Invoked DataSource method `getByType` with args `[class com.medneo.center.schema.Organization]`"
+  },
+  {
+    "duration": 54,
+    "start": "2020-07-28T09:30:16.261024",
+    "end": "2020-07-28T09:30:16.315936",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[center:47e94e29-f2a3-4b13-b7cb-40870dd20072, null, false]`"
+  },
+  {
+    "duration": 56,
+    "start": "2020-07-28T09:30:16.316011",
+    "end": "2020-07-28T09:30:16.372097",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[center:47e94e29-f2a3-4b13-b7cb-40870dd20072, null, false]`"
+  },
+  {
+    "duration": 115,
+    "start": "2020-07-28T09:30:16.376985",
+    "end": "2020-07-28T09:30:16.492890",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[center:47e94e29-f2a3-4b13-b7cb-40870dd20072, null, false]`"
+  },
+  {
+    "duration": 83,
+    "start": "2020-07-28T09:30:16.492986",
+    "end": "2020-07-28T09:30:16.576184",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[center:47e94e29-f2a3-4b13-b7cb-40870dd20072, null, false]`"
+  },
+  {
+    "duration": 77,
+    "start": "2020-07-28T09:30:16.578060",
+    "end": "2020-07-28T09:30:16.655812",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[center:47e94e29-f2a3-4b13-b7cb-40870dd20072, null, false]`"
+  },
+  {
+    "duration": 139,
+    "start": "2020-07-28T09:30:16.657059",
+    "end": "2020-07-28T09:30:16.796466",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[center:47e94e29-f2a3-4b13-b7cb-40870dd20072, null, false]`"
+  },
+  {
+    "duration": 104,
+    "start": "2020-07-28T09:30:16.799229",
+    "end": "2020-07-28T09:30:16.903537",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[center:47e94e29-f2a3-4b13-b7cb-40870dd20072, null, false]`"
+  },
+  {
+    "duration": 143,
+    "start": "2020-07-28T09:30:16.903623",
+    "end": "2020-07-28T09:30:17.047239",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[center:47e94e29-f2a3-4b13-b7cb-40870dd20072, null, false]`"
+  },
+  {
+    "duration": 164,
+    "start": "2020-07-28T09:30:17.050767",
+    "end": "2020-07-28T09:30:17.215415",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[center:47e94e29-f2a3-4b13-b7cb-40870dd20072, null, false]`"
+  },
+  {
+    "duration": 99,
+    "start": "2020-07-28T09:30:17.215477",
+    "end": "2020-07-28T09:30:17.314863",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[center:47e94e29-f2a3-4b13-b7cb-40870dd20072, null, false]`"
+  },
+  {
+    "duration": 93,
+    "start": "2020-07-28T09:30:17.316697",
+    "end": "2020-07-28T09:30:17.410492",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[center:47e94e29-f2a3-4b13-b7cb-40870dd20072, null, false]`"
+  },
+  {
+    "duration": 76,
+    "start": "2020-07-28T09:30:17.410559",
+    "end": "2020-07-28T09:30:17.487305",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[center:47e94e29-f2a3-4b13-b7cb-40870dd20072, null, false]`"
+  },
+  {
+    "duration": 241,
+    "start": "2020-07-28T09:30:17.490243",
+    "end": "2020-07-28T09:30:17.731599",
+    "info": "Invoked BlockingMadDBHttpClient method `allDocsByType` with args `[organization, false, 0, 500]`"
+  },
+  {
+    "duration": 315,
+    "start": "2020-07-28T09:30:17.731853",
+    "end": "2020-07-28T09:30:18.047140",
+    "info": "Invoked BlockingMadDBHttpClient method `bulkGet` with args `[[com.medneo.maddb.http.client.DocumentRevision$InputWithDocument@12236c1d, com.medneo.maddb.http.client.DocumentRevision$InputWithDocument@7406a1dc, com.medneo.maddb.http.client.DocumentRevision$InputWithDocument@7facd92b, com.medneo.maddb.http.client.DocumentRevision$InputWithDocument@4f8219ac, com.medneo.maddb.http.client.DocumentRevision$InputWithDocument@4648d7c5, com.medneo.maddb.http.client.DocumentRevision$InputWithDocument@7818691], true]`"
+  },
+  {
+    "duration": 638,
+    "start": "2020-07-28T09:30:17.490085",
+    "end": "2020-07-28T09:30:18.128174",
+    "info": "Invoked DataSource method `getByType` with args `[class com.medneo.center.schema.Organization]`"
+  },
+  {
+    "duration": 30,
+    "start": "2020-07-28T09:30:18.128256",
+    "end": "2020-07-28T09:30:18.159041",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[center:47e94e29-f2a3-4b13-b7cb-40870dd20072, null, false]`"
+  },
+  {
+    "duration": 85,
+    "start": "2020-07-28T09:30:18.159136",
+    "end": "2020-07-28T09:30:18.244492",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[center:47e94e29-f2a3-4b13-b7cb-40870dd20072, null, false]`"
+  },
+  {
+    "duration": 122,
+    "start": "2020-07-28T09:30:18.247640",
+    "end": "2020-07-28T09:30:18.369694",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[center:47e94e29-f2a3-4b13-b7cb-40870dd20072, null, false]`"
+  },
+  {
+    "duration": 89,
+    "start": "2020-07-28T09:30:18.369765",
+    "end": "2020-07-28T09:30:18.459389",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[center:47e94e29-f2a3-4b13-b7cb-40870dd20072, null, false]`"
+  },
+  {
+    "duration": 66,
+    "start": "2020-07-28T09:30:18.463522",
+    "end": "2020-07-28T09:30:18.530442",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[center:47e94e29-f2a3-4b13-b7cb-40870dd20072, null, false]`"
+  },
+  {
+    "duration": 48,
+    "start": "2020-07-28T09:30:18.530507",
+    "end": "2020-07-28T09:30:18.579002",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[center:47e94e29-f2a3-4b13-b7cb-40870dd20072, null, false]`"
+  },
+  {
+    "duration": 241,
+    "start": "2020-07-28T09:30:18.612456",
+    "end": "2020-07-28T09:30:18.853636",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[center:47e94e29-f2a3-4b13-b7cb-40870dd20072, null, false]`"
+  },
+  {
+    "duration": 194,
+    "start": "2020-07-28T09:30:18.853987",
+    "end": "2020-07-28T09:30:19.048615",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[center:47e94e29-f2a3-4b13-b7cb-40870dd20072, null, false]`"
+  },
+  {
+    "duration": 251,
+    "start": "2020-07-28T09:30:19.063222",
+    "end": "2020-07-28T09:30:19.314958",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[center:47e94e29-f2a3-4b13-b7cb-40870dd20072, null, false]`"
+  },
+  {
+    "duration": 570,
+    "start": "2020-07-28T09:30:19.315212",
+    "end": "2020-07-28T09:30:19.886096",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[center:47e94e29-f2a3-4b13-b7cb-40870dd20072, null, false]`"
+  },
+  {
+    "duration": 225,
+    "start": "2020-07-28T09:30:19.893587",
+    "end": "2020-07-28T09:30:20.118618",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[center:47e94e29-f2a3-4b13-b7cb-40870dd20072, null, false]`"
+  },
+  {
+    "duration": 64,
+    "start": "2020-07-28T09:30:20.118715",
+    "end": "2020-07-28T09:30:20.183456",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[center:47e94e29-f2a3-4b13-b7cb-40870dd20072, null, false]`"
+  },
+  {
+    "duration": 50,
+    "start": "2020-07-28T09:30:20.185383",
+    "end": "2020-07-28T09:30:20.235456",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[accounting:d88a5522-a41b-494d-b0fc-9e7260a41d60, null, false]`"
+  },
+  {
+    "duration": 43,
+    "start": "2020-07-28T09:30:20.235540",
+    "end": "2020-07-28T09:30:20.279109",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[accounting:d88a5522-a41b-494d-b0fc-9e7260a41d60, null, false]`"
+  },
+  {
+    "duration": 32,
+    "start": "2020-07-28T09:30:20.283956",
+    "end": "2020-07-28T09:30:20.316568",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[accounting:a8aef5ab-abaf-482a-91aa-170416c29290, null, false]`"
+  },
+  {
+    "duration": 115,
+    "start": "2020-07-28T09:30:20.316720",
+    "end": "2020-07-28T09:30:20.432298",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[accounting:a8aef5ab-abaf-482a-91aa-170416c29290, null, false]`"
+  },
+  {
+    "duration": 54,
+    "start": "2020-07-28T09:30:20.432988",
+    "end": "2020-07-28T09:30:20.487898",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[accounting:324b83f7-aa3a-4565-ae6e-756d97f9cfb8, null, false]`"
+  },
+  {
+    "duration": 78,
+    "start": "2020-07-28T09:30:20.488087",
+    "end": "2020-07-28T09:30:20.566459",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[accounting:324b83f7-aa3a-4565-ae6e-756d97f9cfb8, null, false]`"
+  },
+  {
+    "duration": 105,
+    "start": "2020-07-28T09:30:20.567109",
+    "end": "2020-07-28T09:30:20.672488",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[accounting:d1f8c05f-0910-427e-8d5c-70e056086891, null, false]`"
+  },
+  {
+    "duration": 76,
+    "start": "2020-07-28T09:30:20.672658",
+    "end": "2020-07-28T09:30:20.748891",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[accounting:d1f8c05f-0910-427e-8d5c-70e056086891, null, false]`"
+  },
+  {
+    "duration": 85,
+    "start": "2020-07-28T09:30:20.749729",
+    "end": "2020-07-28T09:30:20.834916",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[accounting:324b83f7-aa3a-4565-ae6e-756d97f9cfb8, null, false]`"
+  },
+  {
+    "duration": 118,
+    "start": "2020-07-28T09:30:20.834989",
+    "end": "2020-07-28T09:30:20.953229",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[accounting:324b83f7-aa3a-4565-ae6e-756d97f9cfb8, null, false]`"
+  },
+  {
+    "duration": 54,
+    "start": "2020-07-28T09:30:20.953887",
+    "end": "2020-07-28T09:30:21.007898",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[accounting:f4c43854-fbf3-463c-bcce-ecaed57c408c, null, false]`"
+  },
+  {
+    "duration": 23,
+    "start": "2020-07-28T09:30:21.007953",
+    "end": "2020-07-28T09:30:21.031696",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[accounting:f4c43854-fbf3-463c-bcce-ecaed57c408c, null, false]`"
+  },
+  {
+    "duration": 20,
+    "start": "2020-07-28T09:30:21.032470",
+    "end": "2020-07-28T09:30:21.052716",
+    "info": "Invoked BlockingMadDBHttpClient method `allDocsByType` with args `[center, false, 0, 500]`"
+  },
+  {
+    "duration": 60,
+    "start": "2020-07-28T09:30:21.052855",
+    "end": "2020-07-28T09:30:21.113774",
+    "info": "Invoked BlockingMadDBHttpClient method `bulkGet` with args `[[com.medneo.maddb.http.client.DocumentRevision$InputWithDocument@4993207], true]`"
+  },
+  {
+    "duration": 84,
+    "start": "2020-07-28T09:30:21.032409",
+    "end": "2020-07-28T09:30:21.116703",
+    "info": "Invoked DataSource method `getByType` with args `[class com.medneo.center.schema.Center]`"
+  },
+  {
+    "duration": 52,
+    "start": "2020-07-28T09:30:21.116756",
+    "end": "2020-07-28T09:30:21.169200",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[center:47e94e29-f2a3-4b13-b7cb-40870dd20072:modalities:599e30e6-43b0-42e9-8f82-5bdecf0bca1b, null, false]`"
+  },
+  {
+    "duration": 25,
+    "start": "2020-07-28T09:30:21.169272",
+    "end": "2020-07-28T09:30:21.194381",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[center:47e94e29-f2a3-4b13-b7cb-40870dd20072:modalities:599e30e6-43b0-42e9-8f82-5bdecf0bca1b, null, false]`"
+  },
+  {
+    "duration": 49,
+    "start": "2020-07-28T09:30:21.195147",
+    "end": "2020-07-28T09:30:21.244821",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[center:47e94e29-f2a3-4b13-b7cb-40870dd20072:modalities:c8a49581-32e4-468c-a879-1e76418483bf, null, false]`"
+  },
+  {
+    "duration": 69,
+    "start": "2020-07-28T09:30:21.244879",
+    "end": "2020-07-28T09:30:21.314310",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[center:47e94e29-f2a3-4b13-b7cb-40870dd20072:modalities:c8a49581-32e4-468c-a879-1e76418483bf, null, false]`"
+  },
+  {
+    "duration": 28,
+    "start": "2020-07-28T09:30:21.315647",
+    "end": "2020-07-28T09:30:21.344029",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[modality_resource:360ad388-20a1-4540-9a25-e5d7560c7c65, null, false]`"
+  },
+  {
+    "duration": 40,
+    "start": "2020-07-28T09:30:21.344107",
+    "end": "2020-07-28T09:30:21.385049",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[modality_resource:360ad388-20a1-4540-9a25-e5d7560c7c65, null, false]`"
+  },
+  {
+    "duration": 45,
+    "start": "2020-07-28T09:30:21.385878",
+    "end": "2020-07-28T09:30:21.431802",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[modality_resource:a9e2a60a-70c7-46ca-a631-74a24baa1b7c, null, false]`"
+  },
+  {
+    "duration": 29,
+    "start": "2020-07-28T09:30:21.431866",
+    "end": "2020-07-28T09:30:21.460919",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[modality_resource:a9e2a60a-70c7-46ca-a631-74a24baa1b7c, null, false]`"
+  },
+  {
+    "duration": 86,
+    "start": "2020-07-28T09:30:21.462110",
+    "end": "2020-07-28T09:30:21.548818",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[modality_resource:360ad388-20a1-4540-9a25-e5d7560c7c65, null, false]`"
+  },
+  {
+    "duration": 44,
+    "start": "2020-07-28T09:30:21.548925",
+    "end": "2020-07-28T09:30:21.593141",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[modality_resource:360ad388-20a1-4540-9a25-e5d7560c7c65, null, false]`"
+  },
+  {
+    "duration": 29,
+    "start": "2020-07-28T09:30:21.594891",
+    "end": "2020-07-28T09:30:21.624725",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[modality_resource:a9e2a60a-70c7-46ca-a631-74a24baa1b7c, null, false]`"
+  },
+  {
+    "duration": 73,
+    "start": "2020-07-28T09:30:21.624812",
+    "end": "2020-07-28T09:30:21.698253",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[modality_resource:a9e2a60a-70c7-46ca-a631-74a24baa1b7c, null, false]`"
+  },
+  {
+    "duration": 57,
+    "start": "2020-07-28T09:30:21.702623",
+    "end": "2020-07-28T09:30:21.759835",
+    "info": "Invoked BlockingMadDBHttpClient method `allDocsByType` with args `[organization, false, 0, 500]`"
+  },
+  {
+    "duration": 353,
+    "start": "2020-07-28T09:30:21.760222",
+    "end": "2020-07-28T09:30:22.113445",
+    "info": "Invoked BlockingMadDBHttpClient method `bulkGet` with args `[[com.medneo.maddb.http.client.DocumentRevision$InputWithDocument@4e88f93c, com.medneo.maddb.http.client.DocumentRevision$InputWithDocument@1ef5ffb8, com.medneo.maddb.http.client.DocumentRevision$InputWithDocument@38774dc5, com.medneo.maddb.http.client.DocumentRevision$InputWithDocument@c5641d, com.medneo.maddb.http.client.DocumentRevision$InputWithDocument@98d3c20, com.medneo.maddb.http.client.DocumentRevision$InputWithDocument@38340a96], true]`"
+  },
+  {
+    "duration": 429,
+    "start": "2020-07-28T09:30:21.701745",
+    "end": "2020-07-28T09:30:22.131207",
+    "info": "Invoked DataSource method `getByType` with args `[class com.medneo.center.schema.Organization]`"
+  },
+  {
+    "duration": 58,
+    "start": "2020-07-28T09:30:22.131324",
+    "end": "2020-07-28T09:30:22.190294",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[center:47e94e29-f2a3-4b13-b7cb-40870dd20072, null, false]`"
+  },
+  {
+    "duration": 130,
+    "start": "2020-07-28T09:30:22.190358",
+    "end": "2020-07-28T09:30:22.320543",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[center:47e94e29-f2a3-4b13-b7cb-40870dd20072, null, false]`"
+  },
+  {
+    "duration": 86,
+    "start": "2020-07-28T09:30:22.324611",
+    "end": "2020-07-28T09:30:22.411288",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[center:47e94e29-f2a3-4b13-b7cb-40870dd20072, null, false]`"
+  },
+  {
+    "duration": 67,
+    "start": "2020-07-28T09:30:22.411361",
+    "end": "2020-07-28T09:30:22.479059",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[center:47e94e29-f2a3-4b13-b7cb-40870dd20072, null, false]`"
+  },
+  {
+    "duration": 110,
+    "start": "2020-07-28T09:30:22.481663",
+    "end": "2020-07-28T09:30:22.592087",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[center:47e94e29-f2a3-4b13-b7cb-40870dd20072, null, false]`"
+  },
+  {
+    "duration": 71,
+    "start": "2020-07-28T09:30:22.592147",
+    "end": "2020-07-28T09:30:22.663423",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[center:47e94e29-f2a3-4b13-b7cb-40870dd20072, null, false]`"
+  },
+  {
+    "duration": 101,
+    "start": "2020-07-28T09:30:22.665592",
+    "end": "2020-07-28T09:30:22.766764",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[center:47e94e29-f2a3-4b13-b7cb-40870dd20072, null, false]`"
+  },
+  {
+    "duration": 87,
+    "start": "2020-07-28T09:30:22.766856",
+    "end": "2020-07-28T09:30:22.854135",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[center:47e94e29-f2a3-4b13-b7cb-40870dd20072, null, false]`"
+  },
+  {
+    "duration": 51,
+    "start": "2020-07-28T09:30:22.855949",
+    "end": "2020-07-28T09:30:22.907383",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[center:47e94e29-f2a3-4b13-b7cb-40870dd20072, null, false]`"
+  },
+  {
+    "duration": 73,
+    "start": "2020-07-28T09:30:22.911314",
+    "end": "2020-07-28T09:30:22.984550",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[center:47e94e29-f2a3-4b13-b7cb-40870dd20072, null, false]`"
+  },
+  {
+    "duration": 44,
+    "start": "2020-07-28T09:30:23.018860",
+    "end": "2020-07-28T09:30:23.063363",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[center:47e94e29-f2a3-4b13-b7cb-40870dd20072, null, false]`"
+  },
+  {
+    "duration": 55,
+    "start": "2020-07-28T09:30:23.063497",
+    "end": "2020-07-28T09:30:23.119395",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[center:47e94e29-f2a3-4b13-b7cb-40870dd20072, null, false]`"
+  },
+  {
+    "duration": 42,
+    "start": "2020-07-28T09:30:23.123791",
+    "end": "2020-07-28T09:30:23.165815",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[physician:e68a7d9b-de2a-4c06-8e23-cadeb098cd2f, null, false]`"
+  },
+  {
+    "duration": 21,
+    "start": "2020-07-28T09:30:23.165905",
+    "end": "2020-07-28T09:30:23.187450",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[physician:e68a7d9b-de2a-4c06-8e23-cadeb098cd2f, null, false]`"
+  },
+  {
+    "duration": 72,
+    "start": "2020-07-28T09:30:23.189281",
+    "end": "2020-07-28T09:30:23.261455",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[physician:91055929-4814-4832-a4c8-a912757b0cbd, null, false]`"
+  },
+  {
+    "duration": 38,
+    "start": "2020-07-28T09:30:23.261522",
+    "end": "2020-07-28T09:30:23.300239",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[physician:91055929-4814-4832-a4c8-a912757b0cbd, null, false]`"
+  },
+  {
+    "duration": 18,
+    "start": "2020-07-28T09:30:23.304180",
+    "end": "2020-07-28T09:30:23.322877",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[physician:ea1fde01-a880-456d-a993-6bc3166490b0, null, false]`"
+  },
+  {
+    "duration": 47,
+    "start": "2020-07-28T09:30:23.323990",
+    "end": "2020-07-28T09:30:23.371971",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[physician:ea1fde01-a880-456d-a993-6bc3166490b0, null, false]`"
+  },
+  {
+    "duration": 31,
+    "start": "2020-07-28T09:30:23.376024",
+    "end": "2020-07-28T09:30:23.407531",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[physician:099d9548-fe07-4f0e-91e7-63fc8504f84b, null, false]`"
+  },
+  {
+    "duration": 78,
+    "start": "2020-07-28T09:30:23.407594",
+    "end": "2020-07-28T09:30:23.486273",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[physician:099d9548-fe07-4f0e-91e7-63fc8504f84b, null, false]`"
+  },
+  {
+    "duration": 58,
+    "start": "2020-07-28T09:30:23.570143",
+    "end": "2020-07-28T09:30:23.628861",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[physician:df746f9b-37e5-443d-b720-bb9fb896b260, null, false]`"
+  },
+  {
+    "duration": 31,
+    "start": "2020-07-28T09:30:23.628919",
+    "end": "2020-07-28T09:30:23.660405",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[physician:df746f9b-37e5-443d-b720-bb9fb896b260, null, false]`"
+  },
+  {
+    "duration": 93,
+    "start": "2020-07-28T09:30:23.663173",
+    "end": "2020-07-28T09:30:23.756806",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[physician:cba4e00b-9f9a-4830-b3ce-3add11654cd0, null, false]`"
+  },
+  {
+    "duration": 136,
+    "start": "2020-07-28T09:30:23.756878",
+    "end": "2020-07-28T09:30:23.893542",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[physician:cba4e00b-9f9a-4830-b3ce-3add11654cd0, null, false]`"
+  },
+  {
+    "duration": 86,
+    "start": "2020-07-28T09:30:23.897805",
+    "end": "2020-07-28T09:30:23.984490",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[physician:ed6f9c8e-65c8-4ae5-b42c-2331e6808c39, null, false]`"
+  },
+  {
+    "duration": 31,
+    "start": "2020-07-28T09:30:23.984569",
+    "end": "2020-07-28T09:30:24.016078",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[physician:ed6f9c8e-65c8-4ae5-b42c-2331e6808c39, null, false]`"
+  },
+  {
+    "duration": 28,
+    "start": "2020-07-28T09:30:24.020659",
+    "end": "2020-07-28T09:30:24.049624",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[physician:9e4f6d93-08e6-45f8-a06b-c7174df2f3d3, null, false]`"
+  },
+  {
+    "duration": 41,
+    "start": "2020-07-28T09:30:24.049715",
+    "end": "2020-07-28T09:30:24.091535",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[physician:9e4f6d93-08e6-45f8-a06b-c7174df2f3d3, null, false]`"
+  },
+  {
+    "duration": 33,
+    "start": "2020-07-28T09:30:24.099416",
+    "end": "2020-07-28T09:30:24.133319",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[physician:18ebf448-9c9a-436f-b623-3c6b985dbad0, null, false]`"
+  },
+  {
+    "duration": 68,
+    "start": "2020-07-28T09:30:24.133463",
+    "end": "2020-07-28T09:30:24.201778",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[physician:18ebf448-9c9a-436f-b623-3c6b985dbad0, null, false]`"
+  },
+  {
+    "duration": 71,
+    "start": "2020-07-28T09:30:24.204470",
+    "end": "2020-07-28T09:30:24.275931",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[physician:11355733-85d4-4647-a5b1-e98b7e58d336, null, false]`"
+  },
+  {
+    "duration": 76,
+    "start": "2020-07-28T09:30:24.275995",
+    "end": "2020-07-28T09:30:24.352844",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[physician:11355733-85d4-4647-a5b1-e98b7e58d336, null, false]`"
+  },
+  {
+    "duration": 45,
+    "start": "2020-07-28T09:30:24.355047",
+    "end": "2020-07-28T09:30:24.400889",
+    "info": "Invoked BlockingMadDBHttpClient method `allDocsByType` with args `[organization, false, 0, 500]`"
+  },
+  {
+    "duration": 217,
+    "start": "2020-07-28T09:30:24.401947",
+    "end": "2020-07-28T09:30:24.619435",
+    "info": "Invoked BlockingMadDBHttpClient method `bulkGet` with args `[[com.medneo.maddb.http.client.DocumentRevision$InputWithDocument@d94d0c2, com.medneo.maddb.http.client.DocumentRevision$InputWithDocument@46793946, com.medneo.maddb.http.client.DocumentRevision$InputWithDocument@48fd6c07, com.medneo.maddb.http.client.DocumentRevision$InputWithDocument@44cc4241, com.medneo.maddb.http.client.DocumentRevision$InputWithDocument@6f7598da, com.medneo.maddb.http.client.DocumentRevision$InputWithDocument@60493f7b], true]`"
+  },
+  {
+    "duration": 327,
+    "start": "2020-07-28T09:30:24.354985",
+    "end": "2020-07-28T09:30:24.681996",
+    "info": "Invoked DataSource method `getByType` with args `[class com.medneo.center.schema.Organization]`"
+  },
+  {
+    "duration": 39,
+    "start": "2020-07-28T09:30:24.682128",
+    "end": "2020-07-28T09:30:24.721408",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[center:47e94e29-f2a3-4b13-b7cb-40870dd20072, null, false]`"
+  },
+  {
+    "duration": 60,
+    "start": "2020-07-28T09:30:24.721466",
+    "end": "2020-07-28T09:30:24.782374",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[center:47e94e29-f2a3-4b13-b7cb-40870dd20072, null, false]`"
+  },
+  {
+    "duration": 67,
+    "start": "2020-07-28T09:30:24.784715",
+    "end": "2020-07-28T09:30:24.852013",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[center:47e94e29-f2a3-4b13-b7cb-40870dd20072, null, false]`"
+  },
+  {
+    "duration": 48,
+    "start": "2020-07-28T09:30:24.852066",
+    "end": "2020-07-28T09:30:24.900272",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[center:47e94e29-f2a3-4b13-b7cb-40870dd20072, null, false]`"
+  },
+  {
+    "duration": 101,
+    "start": "2020-07-28T09:30:24.902135",
+    "end": "2020-07-28T09:30:25.003553",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[center:47e94e29-f2a3-4b13-b7cb-40870dd20072, null, false]`"
+  },
+  {
+    "duration": 65,
+    "start": "2020-07-28T09:30:25.003615",
+    "end": "2020-07-28T09:30:25.069226",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[center:47e94e29-f2a3-4b13-b7cb-40870dd20072, null, false]`"
+  },
+  {
+    "duration": 34,
+    "start": "2020-07-28T09:30:25.071054",
+    "end": "2020-07-28T09:30:25.105417",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[center:47e94e29-f2a3-4b13-b7cb-40870dd20072, null, false]`"
+  },
+  {
+    "duration": 92,
+    "start": "2020-07-28T09:30:25.105479",
+    "end": "2020-07-28T09:30:25.197546",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[center:47e94e29-f2a3-4b13-b7cb-40870dd20072, null, false]`"
+  },
+  {
+    "duration": 80,
+    "start": "2020-07-28T09:30:25.199630",
+    "end": "2020-07-28T09:30:25.280432",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[center:47e94e29-f2a3-4b13-b7cb-40870dd20072, null, false]`"
+  },
+  {
+    "duration": 119,
+    "start": "2020-07-28T09:30:25.280543",
+    "end": "2020-07-28T09:30:25.399972",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[center:47e94e29-f2a3-4b13-b7cb-40870dd20072, null, false]`"
+  },
+  {
+    "duration": 83,
+    "start": "2020-07-28T09:30:25.403660",
+    "end": "2020-07-28T09:30:25.487087",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[center:47e94e29-f2a3-4b13-b7cb-40870dd20072, null, false]`"
+  },
+  {
+    "duration": 117,
+    "start": "2020-07-28T09:30:25.487141",
+    "end": "2020-07-28T09:30:25.605064",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[center:47e94e29-f2a3-4b13-b7cb-40870dd20072, null, false]`"
+  },
+  {
+    "duration": 25,
+    "start": "2020-07-28T09:30:25.619626",
+    "end": "2020-07-28T09:30:25.645550",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[physician:1f79c91e-9d56-4e9d-9d0c-58f397b7aded, null, false]`"
+  },
+  {
+    "duration": 139,
+    "start": "2020-07-28T09:30:25.645616",
+    "end": "2020-07-28T09:30:25.784644",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[physician:1f79c91e-9d56-4e9d-9d0c-58f397b7aded, null, false]`"
+  },
+  {
+    "duration": 74,
+    "start": "2020-07-28T09:30:25.803803",
+    "end": "2020-07-28T09:30:25.878666",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[physician:c05ca4a7-7a81-4b67-8a23-de4855c3195f, null, false]`"
+  },
+  {
+    "duration": 93,
+    "start": "2020-07-28T09:30:25.878749",
+    "end": "2020-07-28T09:30:25.972163",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[physician:c05ca4a7-7a81-4b67-8a23-de4855c3195f, null, false]`"
+  },
+  {
+    "duration": 33,
+    "start": "2020-07-28T09:30:25.974633",
+    "end": "2020-07-28T09:30:26.008022",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[physician:a871be1c-7c4e-4b39-8a15-59dd7cfebf3c, null, false]`"
+  },
+  {
+    "duration": 84,
+    "start": "2020-07-28T09:30:26.008104",
+    "end": "2020-07-28T09:30:26.092239",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[physician:a871be1c-7c4e-4b39-8a15-59dd7cfebf3c, null, false]`"
+  },
+  {
+    "duration": 28,
+    "start": "2020-07-28T09:30:26.093510",
+    "end": "2020-07-28T09:30:26.121923",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[physician:c36757a7-be6a-4ec3-8d00-5c7ba4b1b911, null, false]`"
+  },
+  {
+    "duration": 66,
+    "start": "2020-07-28T09:30:26.121985",
+    "end": "2020-07-28T09:30:26.188410",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[physician:c36757a7-be6a-4ec3-8d00-5c7ba4b1b911, null, false]`"
+  },
+  {
+    "duration": 51,
+    "start": "2020-07-28T09:30:26.201845",
+    "end": "2020-07-28T09:30:26.252889",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[physician:0325cbd7-f81f-402f-969b-a78d9745d8ab, null, false]`"
+  },
+  {
+    "duration": 49,
+    "start": "2020-07-28T09:30:26.252944",
+    "end": "2020-07-28T09:30:26.302664",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[physician:0325cbd7-f81f-402f-969b-a78d9745d8ab, null, false]`"
+  },
+  {
+    "duration": 46,
+    "start": "2020-07-28T09:30:26.310575",
+    "end": "2020-07-28T09:30:26.356685",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[physician:5774e5e3-2733-4e6f-a19a-acb032d00cc7, null, false]`"
+  },
+  {
+    "duration": 23,
+    "start": "2020-07-28T09:30:26.356747",
+    "end": "2020-07-28T09:30:26.380646",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[physician:5774e5e3-2733-4e6f-a19a-acb032d00cc7, null, false]`"
+  },
+  {
+    "duration": 63,
+    "start": "2020-07-28T09:30:26.384586",
+    "end": "2020-07-28T09:30:26.448193",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[physician:a94486bc-25f8-4378-aaf7-0a9eaf0110ce, null, false]`"
+  },
+  {
+    "duration": 74,
+    "start": "2020-07-28T09:30:26.449049",
+    "end": "2020-07-28T09:30:26.523074",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[physician:a94486bc-25f8-4378-aaf7-0a9eaf0110ce, null, false]`"
+  },
+  {
+    "duration": 70,
+    "start": "2020-07-28T09:30:26.560708",
+    "end": "2020-07-28T09:30:26.631013",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[physician:c0e355d6-a4af-41b3-b055-da67a131af4d, null, false]`"
+  },
+  {
+    "duration": 34,
+    "start": "2020-07-28T09:30:26.631116",
+    "end": "2020-07-28T09:30:26.665242",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[physician:c0e355d6-a4af-41b3-b055-da67a131af4d, null, false]`"
+  },
+  {
+    "duration": 83,
+    "start": "2020-07-28T09:30:26.689395",
+    "end": "2020-07-28T09:30:26.772455",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[physician:d68fadd8-a1aa-4d6c-becf-622ab7e0a722, null, false]`"
+  },
+  {
+    "duration": 53,
+    "start": "2020-07-28T09:30:26.772528",
+    "end": "2020-07-28T09:30:26.825727",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[physician:d68fadd8-a1aa-4d6c-becf-622ab7e0a722, null, false]`"
+  },
+  {
+    "duration": 46,
+    "start": "2020-07-28T09:30:26.827629",
+    "end": "2020-07-28T09:30:26.873926",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[physician:528afd08-d419-4958-8b04-0c3674be4de3, null, false]`"
+  },
+  {
+    "duration": 200,
+    "start": "2020-07-28T09:30:26.874485",
+    "end": "2020-07-28T09:30:27.074769",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[physician:528afd08-d419-4958-8b04-0c3674be4de3, null, false]`"
+  },
+  {
+    "duration": 33,
+    "start": "2020-07-28T09:30:27.078517",
+    "end": "2020-07-28T09:30:27.112429",
+    "info": "Invoked BlockingMadDBHttpClient method `allDocsByType` with args `[center, false, 0, 500]`"
+  },
+  {
+    "duration": 55,
+    "start": "2020-07-28T09:30:27.112561",
+    "end": "2020-07-28T09:30:27.167804",
+    "info": "Invoked BlockingMadDBHttpClient method `bulkGet` with args `[[com.medneo.maddb.http.client.DocumentRevision$InputWithDocument@d470686], true]`"
+  },
+  {
+    "duration": 94,
+    "start": "2020-07-28T09:30:27.078441",
+    "end": "2020-07-28T09:30:27.173087",
+    "info": "Invoked DataSource method `getByType` with args `[class com.medneo.center.schema.Center]`"
+  },
+  {
+    "duration": 40,
+    "start": "2020-07-28T09:30:27.173143",
+    "end": "2020-07-28T09:30:27.213413",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[center:47e94e29-f2a3-4b13-b7cb-40870dd20072:modalities:599e30e6-43b0-42e9-8f82-5bdecf0bca1b, null, false]`"
+  },
+  {
+    "duration": 19,
+    "start": "2020-07-28T09:30:27.214122",
+    "end": "2020-07-28T09:30:27.233943",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[center:47e94e29-f2a3-4b13-b7cb-40870dd20072:modalities:599e30e6-43b0-42e9-8f82-5bdecf0bca1b, null, false]`"
+  },
+  {
+    "duration": 22,
+    "start": "2020-07-28T09:30:27.234715",
+    "end": "2020-07-28T09:30:27.257020",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[center:47e94e29-f2a3-4b13-b7cb-40870dd20072:modalities:c8a49581-32e4-468c-a879-1e76418483bf, null, false]`"
+  },
+  {
+    "duration": 35,
+    "start": "2020-07-28T09:30:27.257065",
+    "end": "2020-07-28T09:30:27.292498",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[center:47e94e29-f2a3-4b13-b7cb-40870dd20072:modalities:c8a49581-32e4-468c-a879-1e76418483bf, null, false]`"
+  },
+  {
+    "duration": 59,
+    "start": "2020-07-28T09:30:27.296652",
+    "end": "2020-07-28T09:30:27.355948",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[modality_resource:360ad388-20a1-4540-9a25-e5d7560c7c65, null, false]`"
+  },
+  {
+    "duration": 36,
+    "start": "2020-07-28T09:30:27.356016",
+    "end": "2020-07-28T09:30:27.392279",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[modality_resource:360ad388-20a1-4540-9a25-e5d7560c7c65, null, false]`"
+  },
+  {
+    "duration": 50,
+    "start": "2020-07-28T09:30:27.392940",
+    "end": "2020-07-28T09:30:27.443311",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[modality_resource:a9e2a60a-70c7-46ca-a631-74a24baa1b7c, null, false]`"
+  },
+  {
+    "duration": 35,
+    "start": "2020-07-28T09:30:27.443363",
+    "end": "2020-07-28T09:30:27.478555",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[modality_resource:a9e2a60a-70c7-46ca-a631-74a24baa1b7c, null, false]`"
+  },
+  {
+    "duration": 75,
+    "start": "2020-07-28T09:30:27.480004",
+    "end": "2020-07-28T09:30:27.555586",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[modality_resource:360ad388-20a1-4540-9a25-e5d7560c7c65, null, false]`"
+  },
+  {
+    "duration": 113,
+    "start": "2020-07-28T09:30:27.555770",
+    "end": "2020-07-28T09:30:27.669323",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[modality_resource:360ad388-20a1-4540-9a25-e5d7560c7c65, null, false]`"
+  },
+  {
+    "duration": 52,
+    "start": "2020-07-28T09:30:27.670155",
+    "end": "2020-07-28T09:30:27.722723",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[modality_resource:a9e2a60a-70c7-46ca-a631-74a24baa1b7c, null, false]`"
+  },
+  {
+    "duration": 127,
+    "start": "2020-07-28T09:30:27.722829",
+    "end": "2020-07-28T09:30:27.850790",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[modality_resource:a9e2a60a-70c7-46ca-a631-74a24baa1b7c, null, false]`"
+  },
+  {
+    "duration": 23,
+    "start": "2020-07-28T09:30:27.852126",
+    "end": "2020-07-28T09:30:27.875342",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[sedativum:d225417b-4339-4c21-8555-1e51e034560b, null, false]`"
+  },
+  {
+    "duration": 22,
+    "start": "2020-07-28T09:30:27.875398",
+    "end": "2020-07-28T09:30:27.897897",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[sedativum:d225417b-4339-4c21-8555-1e51e034560b, null, false]`"
+  },
+  {
+    "duration": 60,
+    "start": "2020-07-28T09:30:27.917535",
+    "end": "2020-07-28T09:30:27.977987",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[sedativum:f38bdefa-9f83-43d6-9333-3fdeb2ff564b, null, false]`"
+  },
+  {
+    "duration": 189,
+    "start": "2020-07-28T09:30:27.978040",
+    "end": "2020-07-28T09:30:28.167048",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[sedativum:f38bdefa-9f83-43d6-9333-3fdeb2ff564b, null, false]`"
+  },
+  {
+    "duration": 19,
+    "start": "2020-07-28T09:30:28.167997",
+    "end": "2020-07-28T09:30:28.187417",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[accounting:d88a5522-a41b-494d-b0fc-9e7260a41d60, null, false]`"
+  },
+  {
+    "duration": 35,
+    "start": "2020-07-28T09:30:28.187470",
+    "end": "2020-07-28T09:30:28.222587",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[accounting:d88a5522-a41b-494d-b0fc-9e7260a41d60, null, false]`"
+  },
+  {
+    "duration": 32,
+    "start": "2020-07-28T09:30:28.224181",
+    "end": "2020-07-28T09:30:28.256513",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[physician:e68a7d9b-de2a-4c06-8e23-cadeb098cd2f, null, false]`"
+  },
+  {
+    "duration": 98,
+    "start": "2020-07-28T09:30:28.256802",
+    "end": "2020-07-28T09:30:28.354810",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[physician:e68a7d9b-de2a-4c06-8e23-cadeb098cd2f, null, false]`"
+  },
+  {
+    "duration": 76,
+    "start": "2020-07-28T09:30:28.357627",
+    "end": "2020-07-28T09:30:28.434615",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[physician:91055929-4814-4832-a4c8-a912757b0cbd, null, false]`"
+  },
+  {
+    "duration": 199,
+    "start": "2020-07-28T09:30:28.434706",
+    "end": "2020-07-28T09:30:28.634428",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[physician:91055929-4814-4832-a4c8-a912757b0cbd, null, false]`"
+  },
+  {
+    "duration": 53,
+    "start": "2020-07-28T09:30:28.636948",
+    "end": "2020-07-28T09:30:28.690082",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[physician:1f79c91e-9d56-4e9d-9d0c-58f397b7aded, null, false]`"
+  },
+  {
+    "duration": 41,
+    "start": "2020-07-28T09:30:28.690162",
+    "end": "2020-07-28T09:30:28.731979",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[physician:1f79c91e-9d56-4e9d-9d0c-58f397b7aded, null, false]`"
+  },
+  {
+    "duration": 98,
+    "start": "2020-07-28T09:30:28.738874",
+    "end": "2020-07-28T09:30:28.837465",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[physician:c05ca4a7-7a81-4b67-8a23-de4855c3195f, null, false]`"
+  },
+  {
+    "duration": 85,
+    "start": "2020-07-28T09:30:28.837693",
+    "end": "2020-07-28T09:30:28.923236",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[physician:c05ca4a7-7a81-4b67-8a23-de4855c3195f, null, false]`"
+  },
+  {
+    "duration": 31,
+    "start": "2020-07-28T09:30:28.924536",
+    "end": "2020-07-28T09:30:28.955875",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[accounting:a8aef5ab-abaf-482a-91aa-170416c29290, null, false]`"
+  },
+  {
+    "duration": 107,
+    "start": "2020-07-28T09:30:28.955972",
+    "end": "2020-07-28T09:30:29.063448",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[accounting:a8aef5ab-abaf-482a-91aa-170416c29290, null, false]`"
+  },
+  {
+    "duration": 39,
+    "start": "2020-07-28T09:30:29.064125",
+    "end": "2020-07-28T09:30:29.104107",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[physician:ea1fde01-a880-456d-a993-6bc3166490b0, null, false]`"
+  },
+  {
+    "duration": 42,
+    "start": "2020-07-28T09:30:29.104283",
+    "end": "2020-07-28T09:30:29.146932",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[physician:ea1fde01-a880-456d-a993-6bc3166490b0, null, false]`"
+  },
+  {
+    "duration": 30,
+    "start": "2020-07-28T09:30:29.148769",
+    "end": "2020-07-28T09:30:29.179018",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[physician:099d9548-fe07-4f0e-91e7-63fc8504f84b, null, false]`"
+  },
+  {
+    "duration": 100,
+    "start": "2020-07-28T09:30:29.179076",
+    "end": "2020-07-28T09:30:29.279262",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[physician:099d9548-fe07-4f0e-91e7-63fc8504f84b, null, false]`"
+  },
+  {
+    "duration": 54,
+    "start": "2020-07-28T09:30:29.281036",
+    "end": "2020-07-28T09:30:29.335076",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[physician:a871be1c-7c4e-4b39-8a15-59dd7cfebf3c, null, false]`"
+  },
+  {
+    "duration": 67,
+    "start": "2020-07-28T09:30:29.335687",
+    "end": "2020-07-28T09:30:29.403534",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[physician:a871be1c-7c4e-4b39-8a15-59dd7cfebf3c, null, false]`"
+  },
+  {
+    "duration": 66,
+    "start": "2020-07-28T09:30:29.405870",
+    "end": "2020-07-28T09:30:29.472170",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[physician:c36757a7-be6a-4ec3-8d00-5c7ba4b1b911, null, false]`"
+  },
+  {
+    "duration": 45,
+    "start": "2020-07-28T09:30:29.472257",
+    "end": "2020-07-28T09:30:29.517302",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[physician:c36757a7-be6a-4ec3-8d00-5c7ba4b1b911, null, false]`"
+  },
+  {
+    "duration": 76,
+    "start": "2020-07-28T09:30:29.519149",
+    "end": "2020-07-28T09:30:29.595608",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[accounting:324b83f7-aa3a-4565-ae6e-756d97f9cfb8, null, false]`"
+  },
+  {
+    "duration": 31,
+    "start": "2020-07-28T09:30:29.595748",
+    "end": "2020-07-28T09:30:29.627537",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[accounting:324b83f7-aa3a-4565-ae6e-756d97f9cfb8, null, false]`"
+  },
+  {
+    "duration": 45,
+    "start": "2020-07-28T09:30:29.628571",
+    "end": "2020-07-28T09:30:29.673928",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[physician:df746f9b-37e5-443d-b720-bb9fb896b260, null, false]`"
+  },
+  {
+    "duration": 47,
+    "start": "2020-07-28T09:30:29.674005",
+    "end": "2020-07-28T09:30:29.721824",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[physician:df746f9b-37e5-443d-b720-bb9fb896b260, null, false]`"
+  },
+  {
+    "duration": 32,
+    "start": "2020-07-28T09:30:29.723024",
+    "end": "2020-07-28T09:30:29.755441",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[physician:cba4e00b-9f9a-4830-b3ce-3add11654cd0, null, false]`"
+  },
+  {
+    "duration": 33,
+    "start": "2020-07-28T09:30:29.755531",
+    "end": "2020-07-28T09:30:29.788737",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[physician:cba4e00b-9f9a-4830-b3ce-3add11654cd0, null, false]`"
+  },
+  {
+    "duration": 66,
+    "start": "2020-07-28T09:30:29.792474",
+    "end": "2020-07-28T09:30:29.859163",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[physician:0325cbd7-f81f-402f-969b-a78d9745d8ab, null, false]`"
+  },
+  {
+    "duration": 82,
+    "start": "2020-07-28T09:30:29.859216",
+    "end": "2020-07-28T09:30:29.941988",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[physician:0325cbd7-f81f-402f-969b-a78d9745d8ab, null, false]`"
+  },
+  {
+    "duration": 24,
+    "start": "2020-07-28T09:30:29.943592",
+    "end": "2020-07-28T09:30:29.968260",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[physician:5774e5e3-2733-4e6f-a19a-acb032d00cc7, null, false]`"
+  },
+  {
+    "duration": 32,
+    "start": "2020-07-28T09:30:29.968375",
+    "end": "2020-07-28T09:30:30.000442",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[physician:5774e5e3-2733-4e6f-a19a-acb032d00cc7, null, false]`"
+  },
+  {
+    "duration": 93,
+    "start": "2020-07-28T09:30:30.002931",
+    "end": "2020-07-28T09:30:30.096656",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[accounting:d1f8c05f-0910-427e-8d5c-70e056086891, null, false]`"
+  },
+  {
+    "duration": 39,
+    "start": "2020-07-28T09:30:30.096734",
+    "end": "2020-07-28T09:30:30.136065",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[accounting:d1f8c05f-0910-427e-8d5c-70e056086891, null, false]`"
+  },
+  {
+    "duration": 44,
+    "start": "2020-07-28T09:30:30.137010",
+    "end": "2020-07-28T09:30:30.181651",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[physician:ed6f9c8e-65c8-4ae5-b42c-2331e6808c39, null, false]`"
+  },
+  {
+    "duration": 60,
+    "start": "2020-07-28T09:30:30.181696",
+    "end": "2020-07-28T09:30:30.241908",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[physician:ed6f9c8e-65c8-4ae5-b42c-2331e6808c39, null, false]`"
+  },
+  {
+    "duration": 40,
+    "start": "2020-07-28T09:30:30.243581",
+    "end": "2020-07-28T09:30:30.284216",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[physician:9e4f6d93-08e6-45f8-a06b-c7174df2f3d3, null, false]`"
+  },
+  {
+    "duration": 20,
+    "start": "2020-07-28T09:30:30.284287",
+    "end": "2020-07-28T09:30:30.304777",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[physician:9e4f6d93-08e6-45f8-a06b-c7174df2f3d3, null, false]`"
+  },
+  {
+    "duration": 79,
+    "start": "2020-07-28T09:30:30.306822",
+    "end": "2020-07-28T09:30:30.385849",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[physician:a94486bc-25f8-4378-aaf7-0a9eaf0110ce, null, false]`"
+  },
+  {
+    "duration": 19,
+    "start": "2020-07-28T09:30:30.385931",
+    "end": "2020-07-28T09:30:30.405439",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[physician:a94486bc-25f8-4378-aaf7-0a9eaf0110ce, null, false]`"
+  },
+  {
+    "duration": 49,
+    "start": "2020-07-28T09:30:30.408556",
+    "end": "2020-07-28T09:30:30.458445",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[physician:c0e355d6-a4af-41b3-b055-da67a131af4d, null, false]`"
+  },
+  {
+    "duration": 24,
+    "start": "2020-07-28T09:30:30.458499",
+    "end": "2020-07-28T09:30:30.483058",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[physician:c0e355d6-a4af-41b3-b055-da67a131af4d, null, false]`"
+  },
+  {
+    "duration": 20,
+    "start": "2020-07-28T09:30:30.489851",
+    "end": "2020-07-28T09:30:30.510416",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[accounting:324b83f7-aa3a-4565-ae6e-756d97f9cfb8, null, false]`"
+  },
+  {
+    "duration": 24,
+    "start": "2020-07-28T09:30:30.510453",
+    "end": "2020-07-28T09:30:30.535126",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[accounting:324b83f7-aa3a-4565-ae6e-756d97f9cfb8, null, false]`"
+  },
+  {
+    "duration": 84,
+    "start": "2020-07-28T09:30:30.536465",
+    "end": "2020-07-28T09:30:30.620870",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[accounting:f4c43854-fbf3-463c-bcce-ecaed57c408c, null, false]`"
+  },
+  {
+    "duration": 38,
+    "start": "2020-07-28T09:30:30.620930",
+    "end": "2020-07-28T09:30:30.659300",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[accounting:f4c43854-fbf3-463c-bcce-ecaed57c408c, null, false]`"
+  },
+  {
+    "duration": 18,
+    "start": "2020-07-28T09:30:30.659991",
+    "end": "2020-07-28T09:30:30.678310",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[physician:18ebf448-9c9a-436f-b623-3c6b985dbad0, null, false]`"
+  },
+  {
+    "duration": 36,
+    "start": "2020-07-28T09:30:30.678421",
+    "end": "2020-07-28T09:30:30.714630",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[physician:18ebf448-9c9a-436f-b623-3c6b985dbad0, null, false]`"
+  },
+  {
+    "duration": 25,
+    "start": "2020-07-28T09:30:30.716023",
+    "end": "2020-07-28T09:30:30.741143",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[physician:11355733-85d4-4647-a5b1-e98b7e58d336, null, false]`"
+  },
+  {
+    "duration": 42,
+    "start": "2020-07-28T09:30:30.741213",
+    "end": "2020-07-28T09:30:30.783697",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[physician:11355733-85d4-4647-a5b1-e98b7e58d336, null, false]`"
+  },
+  {
+    "duration": 31,
+    "start": "2020-07-28T09:30:30.787954",
+    "end": "2020-07-28T09:30:30.819764",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[physician:d68fadd8-a1aa-4d6c-becf-622ab7e0a722, null, false]`"
+  },
+  {
+    "duration": 88,
+    "start": "2020-07-28T09:30:30.819847",
+    "end": "2020-07-28T09:30:30.908502",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[physician:d68fadd8-a1aa-4d6c-becf-622ab7e0a722, null, false]`"
+  },
+  {
+    "duration": 32,
+    "start": "2020-07-28T09:30:30.920791",
+    "end": "2020-07-28T09:30:30.953549",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[physician:528afd08-d419-4958-8b04-0c3674be4de3, null, false]`"
+  },
+  {
+    "duration": 50,
+    "start": "2020-07-28T09:30:30.953635",
+    "end": "2020-07-28T09:30:31.004242",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[physician:528afd08-d419-4958-8b04-0c3674be4de3, null, false]`"
+  },
+  {
+    "duration": 30,
+    "start": "2020-07-28T09:30:31.005739",
+    "end": "2020-07-28T09:30:31.036097",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[contrast_media:ac253591-aac2-40f6-89b3-673202bd3e41, null, false]`"
+  },
+  {
+    "duration": 71,
+    "start": "2020-07-28T09:30:31.036229",
+    "end": "2020-07-28T09:30:31.107723",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[contrast_media:ac253591-aac2-40f6-89b3-673202bd3e41, null, false]`"
+  },
+  {
+    "duration": 25,
+    "start": "2020-07-28T09:30:31.116658",
+    "end": "2020-07-28T09:30:31.141876",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[contrast_media:6db6d7ff-c288-4fba-aa48-c67e067e8b1b, null, false]`"
+  },
+  {
+    "duration": 53,
+    "start": "2020-07-28T09:30:31.141941",
+    "end": "2020-07-28T09:30:31.195919",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[contrast_media:6db6d7ff-c288-4fba-aa48-c67e067e8b1b, null, false]`"
+  },
+  {
+    "duration": 15786,
+    "start": "2020-07-28T09:30:15.611905",
+    "end": "2020-07-28T09:30:31.398465",
+    "info": "Http Req http://localhost:8080/graphql with Body {\"operationName\":\"center\",\"variables\":{},\"query\":\"query center {\\n  center {\\n    accountings {\\n      ...AccountingFields\\n      __typename\\n    }\\n    code\\n    name\\n    address {\\n      ...AddressFields\\n      __typename\\n    }\\n    organizations {\\n      ...OrganizationFields\\n      __typename\\n    }\\n    physicians {\\n      ...PhysicianFields\\n      __typename\\n    }\\n    contrastMedia {\\n      name\\n      id\\n      __typename\\n    }\\n    sedativa {\\n      name\\n      id\\n      __typename\\n    }\\n    modalities {\\n      ...ModalityFields\\n      __typename\\n    }\\n    modalityResources {\\n      ...ModalityResourceFields\\n      __typename\\n    }\\n    __typename\\n  }\\n}\\n\\nfragment AddressFields on Address {\\n  addition\\n  city\\n  countryCode\\n  street\\n  postalCode\\n  __typename\\n}\\n\\nfragment AccountingFields on Accounting {\\n  id\\n  type\\n  countryCode\\n  name\\n  description\\n  rev\\n  __typename\\n}\\n\\nfragment OrganizationFields on Organization {\\n  description\\n  id\\n  ldapId\\n  name\\n  registrationCode\\n  shortName\\n  type\\n  accountings {\\n    ...AccountingFields\\n    __typename\\n  }\\n  address {\\n    ...AddressFields\\n    __typename\\n  }\\n  contacts {\\n    ...ContactFields\\n    __typename\\n  }\\n  referringPhysicians {\\n    ...PhysicianFields\\n    __typename\\n  }\\n  reportingPhysicians {\\n    ...PhysicianFields\\n    __typename\\n  }\\n  __typename\\n}\\n\\nfragment ContactFields on Contact {\\n  contactType\\n  label\\n  ... on AddressContact {\\n    address {\\n      ...AddressFields\\n      __typename\\n    }\\n    __typename\\n  }\\n  ... on EmailContact {\\n    email\\n    __typename\\n  }\\n  ... on FaxContact {\\n    faxNumber: number\\n    __typename\\n  }\\n  ... on MobileContact {\\n    mobileNumber: number\\n    __typename\\n  }\\n  ... on PhoneContact {\\n    phoneNumber: number\\n    __typename\\n  }\\n  __typename\\n}\\n\\nfragment PhysicianFields on Physician {\\n  id\\n  ldapId\\n  legacyMedneoId\\n  description\\n  profession\\n  sex\\n  address {\\n    ...AddressFields\\n    __typename\\n  }\\n  contacts {\\n    ...ContactFields\\n    __typename\\n  }\\n  name {\\n    ...NameFields\\n    __typename\\n  }\\n  __typename\\n}\\n\\nfragment NameFields on Name {\\n  familyName\\n  givenName\\n  middleNames\\n  namePrefix\\n  nameSuffix\\n  nickName\\n  __typename\\n}\\n\\nfragment ModalityFields on Modality {\\n  id\\n  code\\n  description\\n  name\\n  type\\n  __typename\\n}\\n\\nfragment ModalityResourceFields on ModalityResource {\\n  description\\n  name\\n  id\\n  type\\n  __typename\\n}\\n\"}"
+  }
+]

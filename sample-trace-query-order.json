@@ -1,0 +1,614 @@
+[
+  {
+    "duration": 34,
+    "start": "2020-07-28T09:31:19.476745",
+    "end": "2020-07-28T09:31:19.511703",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[order:94d5827a-c966-45b9-8f3a-b1e39082e858, null, false]`"
+  },
+  {
+    "duration": 17,
+    "start": "2020-07-28T09:31:19.511747",
+    "end": "2020-07-28T09:31:19.528831",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[order:94d5827a-c966-45b9-8f3a-b1e39082e858, null, false]`"
+  },
+  {
+    "duration": 66,
+    "start": "2020-07-28T09:31:19.476678",
+    "end": "2020-07-28T09:31:19.542900",
+    "info": "Invoked DataSource method `getByIdNonNull` with args `[ID(rawValue\u003dorder:94d5827a-c966-45b9-8f3a-b1e39082e858), class com.medneo.center.schema.Order]`"
+  },
+  {
+    "duration": 13,
+    "start": "2020-07-28T09:31:19.543125",
+    "end": "2020-07-28T09:31:19.556430",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[order:94d5827a-c966-45b9-8f3a-b1e39082e858:patient:51e7c086-e768-4300-bc8f-7e89c402377a, null, false]`"
+  },
+  {
+    "duration": 16,
+    "start": "2020-07-28T09:31:19.556514",
+    "end": "2020-07-28T09:31:19.573113",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[order:94d5827a-c966-45b9-8f3a-b1e39082e858:patient:51e7c086-e768-4300-bc8f-7e89c402377a, null, false]`"
+  },
+  {
+    "duration": 17,
+    "start": "2020-07-28T09:31:19.575826",
+    "end": "2020-07-28T09:31:19.593586",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[order:94d5827a-c966-45b9-8f3a-b1e39082e858:accountingData:7a0f41ec-be9a-4f28-a7e0-fd7f821b96db, null, false]`"
+  },
+  {
+    "duration": 27,
+    "start": "2020-07-28T09:31:19.593619",
+    "end": "2020-07-28T09:31:19.620679",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[order:94d5827a-c966-45b9-8f3a-b1e39082e858:accountingData:7a0f41ec-be9a-4f28-a7e0-fd7f821b96db, null, false]`"
+  },
+  {
+    "duration": 7,
+    "start": "2020-07-28T09:31:19.622570",
+    "end": "2020-07-28T09:31:19.630481",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[accounting:f4c43854-fbf3-463c-bcce-ecaed57c408c, null, false]`"
+  },
+  {
+    "duration": 7,
+    "start": "2020-07-28T09:31:19.630523",
+    "end": "2020-07-28T09:31:19.638007",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[accounting:f4c43854-fbf3-463c-bcce-ecaed57c408c, null, false]`"
+  },
+  {
+    "duration": 8,
+    "start": "2020-07-28T09:31:19.639113",
+    "end": "2020-07-28T09:31:19.648042",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[order:94d5827a-c966-45b9-8f3a-b1e39082e858:admissionChecklist:650a158a-b239-4d59-9127-83252c30e9cd, null, false]`"
+  },
+  {
+    "duration": 13,
+    "start": "2020-07-28T09:31:19.648160",
+    "end": "2020-07-28T09:31:19.661475",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[order:94d5827a-c966-45b9-8f3a-b1e39082e858:admissionChecklist:650a158a-b239-4d59-9127-83252c30e9cd, null, false]`"
+  },
+  {
+    "duration": 4,
+    "start": "2020-07-28T09:31:19.661980",
+    "end": "2020-07-28T09:31:19.666822",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[order:94d5827a-c966-45b9-8f3a-b1e39082e858:centerProcess:5a798e0c-fc85-401e-ba6f-b1242555b2a5, null, false]`"
+  },
+  {
+    "duration": 35,
+    "start": "2020-07-28T09:31:19.666953",
+    "end": "2020-07-28T09:31:19.702882",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[order:94d5827a-c966-45b9-8f3a-b1e39082e858:centerProcess:5a798e0c-fc85-401e-ba6f-b1242555b2a5, null, false]`"
+  },
+  {
+    "duration": 11,
+    "start": "2020-07-28T09:31:19.703974",
+    "end": "2020-07-28T09:31:19.715165",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[order:94d5827a-c966-45b9-8f3a-b1e39082e858:insurance:f94a715f-0f76-4c1b-8328-22f1e0904c2d, null, false]`"
+  },
+  {
+    "duration": 23,
+    "start": "2020-07-28T09:31:19.715200",
+    "end": "2020-07-28T09:31:19.738671",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[order:94d5827a-c966-45b9-8f3a-b1e39082e858:insurance:f94a715f-0f76-4c1b-8328-22f1e0904c2d, null, false]`"
+  },
+  {
+    "duration": 19,
+    "start": "2020-07-28T09:31:19.742462",
+    "end": "2020-07-28T09:31:19.761633",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[order:94d5827a-c966-45b9-8f3a-b1e39082e858:notes:d7dbdda2-5977-4654-9f57-e26801acab27, null, false]`"
+  },
+  {
+    "duration": 19,
+    "start": "2020-07-28T09:31:19.761674",
+    "end": "2020-07-28T09:31:19.781126",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[order:94d5827a-c966-45b9-8f3a-b1e39082e858:notes:d7dbdda2-5977-4654-9f57-e26801acab27, null, false]`"
+  },
+  {
+    "duration": 23,
+    "start": "2020-07-28T09:31:19.782047",
+    "end": "2020-07-28T09:31:19.805155",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[order:94d5827a-c966-45b9-8f3a-b1e39082e858:referrer:d3fa093f-3c0d-4724-9d81-9c42ce638aa4, null, false]`"
+  },
+  {
+    "duration": 17,
+    "start": "2020-07-28T09:31:19.805284",
+    "end": "2020-07-28T09:31:19.822755",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[order:94d5827a-c966-45b9-8f3a-b1e39082e858:referrer:d3fa093f-3c0d-4724-9d81-9c42ce638aa4, null, false]`"
+  },
+  {
+    "duration": 12,
+    "start": "2020-07-28T09:31:19.825287",
+    "end": "2020-07-28T09:31:19.838102",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[organization:f2b7eaf6-d375-41e8-80b3-881e1cfa58fa, null, false]`"
+  },
+  {
+    "duration": 12,
+    "start": "2020-07-28T09:31:19.838143",
+    "end": "2020-07-28T09:31:19.850336",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[organization:f2b7eaf6-d375-41e8-80b3-881e1cfa58fa, null, false]`"
+  },
+  {
+    "duration": 12,
+    "start": "2020-07-28T09:31:19.851217",
+    "end": "2020-07-28T09:31:19.863799",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[accounting:f4c43854-fbf3-463c-bcce-ecaed57c408c, null, false]`"
+  },
+  {
+    "duration": 33,
+    "start": "2020-07-28T09:31:19.863833",
+    "end": "2020-07-28T09:31:19.897514",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[accounting:f4c43854-fbf3-463c-bcce-ecaed57c408c, null, false]`"
+  },
+  {
+    "duration": 14,
+    "start": "2020-07-28T09:31:19.898017",
+    "end": "2020-07-28T09:31:19.912874",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[physician:18ebf448-9c9a-436f-b623-3c6b985dbad0, null, false]`"
+  },
+  {
+    "duration": 6,
+    "start": "2020-07-28T09:31:19.912909",
+    "end": "2020-07-28T09:31:19.918995",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[physician:18ebf448-9c9a-436f-b623-3c6b985dbad0, null, false]`"
+  },
+  {
+    "duration": 13,
+    "start": "2020-07-28T09:31:19.919811",
+    "end": "2020-07-28T09:31:19.933439",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[physician:11355733-85d4-4647-a5b1-e98b7e58d336, null, false]`"
+  },
+  {
+    "duration": 6,
+    "start": "2020-07-28T09:31:19.933469",
+    "end": "2020-07-28T09:31:19.939670",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[physician:11355733-85d4-4647-a5b1-e98b7e58d336, null, false]`"
+  },
+  {
+    "duration": 18,
+    "start": "2020-07-28T09:31:19.941095",
+    "end": "2020-07-28T09:31:19.959892",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[physician:d68fadd8-a1aa-4d6c-becf-622ab7e0a722, null, false]`"
+  },
+  {
+    "duration": 16,
+    "start": "2020-07-28T09:31:19.959936",
+    "end": "2020-07-28T09:31:19.976718",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[physician:d68fadd8-a1aa-4d6c-becf-622ab7e0a722, null, false]`"
+  },
+  {
+    "duration": 6,
+    "start": "2020-07-28T09:31:19.978094",
+    "end": "2020-07-28T09:31:19.984619",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[physician:528afd08-d419-4958-8b04-0c3674be4de3, null, false]`"
+  },
+  {
+    "duration": 15,
+    "start": "2020-07-28T09:31:19.984659",
+    "end": "2020-07-28T09:31:20.000447",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[physician:528afd08-d419-4958-8b04-0c3674be4de3, null, false]`"
+  },
+  {
+    "duration": 9,
+    "start": "2020-07-28T09:31:20.001607",
+    "end": "2020-07-28T09:31:20.010962",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[physician:d68fadd8-a1aa-4d6c-becf-622ab7e0a722, null, false]`"
+  },
+  {
+    "duration": 14,
+    "start": "2020-07-28T09:31:20.011047",
+    "end": "2020-07-28T09:31:20.025850",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[physician:d68fadd8-a1aa-4d6c-becf-622ab7e0a722, null, false]`"
+  },
+  {
+    "duration": 26,
+    "start": "2020-07-28T09:31:20.027046",
+    "end": "2020-07-28T09:31:20.054007",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[order:94d5827a-c966-45b9-8f3a-b1e39082e858:orderData:86ab8fb9-858e-43bc-86a6-8a8f6a5c597f, null, false]`"
+  },
+  {
+    "duration": 12,
+    "start": "2020-07-28T09:31:20.054042",
+    "end": "2020-07-28T09:31:20.066651",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[order:94d5827a-c966-45b9-8f3a-b1e39082e858:orderData:86ab8fb9-858e-43bc-86a6-8a8f6a5c597f, null, false]`"
+  },
+  {
+    "duration": 25,
+    "start": "2020-07-28T09:31:20.068166",
+    "end": "2020-07-28T09:31:20.093722",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[order:94d5827a-c966-45b9-8f3a-b1e39082e858:orderData:86ab8fb9-858e-43bc-86a6-8a8f6a5c597f:anamnese:3e0149a1-5c0e-4054-9464-c8ca60ed19f9, null, false]`"
+  },
+  {
+    "duration": 7,
+    "start": "2020-07-28T09:31:20.093851",
+    "end": "2020-07-28T09:31:20.101447",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[order:94d5827a-c966-45b9-8f3a-b1e39082e858:orderData:86ab8fb9-858e-43bc-86a6-8a8f6a5c597f:anamnese:3e0149a1-5c0e-4054-9464-c8ca60ed19f9, null, false]`"
+  },
+  {
+    "duration": 16,
+    "start": "2020-07-28T09:31:20.101905",
+    "end": "2020-07-28T09:31:20.118042",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[order:94d5827a-c966-45b9-8f3a-b1e39082e858:medicationData:008c8c46-2f1d-49ae-84cc-4ee9649b78ed, null, false]`"
+  },
+  {
+    "duration": 31,
+    "start": "2020-07-28T09:31:20.118087",
+    "end": "2020-07-28T09:31:20.149519",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[order:94d5827a-c966-45b9-8f3a-b1e39082e858:medicationData:008c8c46-2f1d-49ae-84cc-4ee9649b78ed, null, false]`"
+  },
+  {
+    "duration": 13,
+    "start": "2020-07-28T09:31:20.150714",
+    "end": "2020-07-28T09:31:20.164140",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[order:94d5827a-c966-45b9-8f3a-b1e39082e858:medicalData:89da6f4f-27aa-494d-b85b-146d3a266ef7, null, false]`"
+  },
+  {
+    "duration": 28,
+    "start": "2020-07-28T09:31:20.164170",
+    "end": "2020-07-28T09:31:20.192966",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[order:94d5827a-c966-45b9-8f3a-b1e39082e858:medicalData:89da6f4f-27aa-494d-b85b-146d3a266ef7, null, false]`"
+  },
+  {
+    "duration": 12,
+    "start": "2020-07-28T09:31:20.195598",
+    "end": "2020-07-28T09:31:20.207975",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[order:94d5827a-c966-45b9-8f3a-b1e39082e858:examinationData:83870656-14d7-4e42-932a-cb688f4da2b8, null, false]`"
+  },
+  {
+    "duration": 18,
+    "start": "2020-07-28T09:31:20.208020",
+    "end": "2020-07-28T09:31:20.226740",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[order:94d5827a-c966-45b9-8f3a-b1e39082e858:examinationData:83870656-14d7-4e42-932a-cb688f4da2b8, null, false]`"
+  },
+  {
+    "duration": 9,
+    "start": "2020-07-28T09:31:20.228696",
+    "end": "2020-07-28T09:31:20.238418",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[center:47e94e29-f2a3-4b13-b7cb-40870dd20072:modalities:599e30e6-43b0-42e9-8f82-5bdecf0bca1b, null, false]`"
+  },
+  {
+    "duration": 11,
+    "start": "2020-07-28T09:31:20.238476",
+    "end": "2020-07-28T09:31:20.250065",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[center:47e94e29-f2a3-4b13-b7cb-40870dd20072:modalities:599e30e6-43b0-42e9-8f82-5bdecf0bca1b, null, false]`"
+  },
+  {
+    "duration": 17,
+    "start": "2020-07-28T09:31:20.250767",
+    "end": "2020-07-28T09:31:20.267816",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[modality_resource:360ad388-20a1-4540-9a25-e5d7560c7c65, null, false]`"
+  },
+  {
+    "duration": 14,
+    "start": "2020-07-28T09:31:20.267846",
+    "end": "2020-07-28T09:31:20.282529",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[modality_resource:360ad388-20a1-4540-9a25-e5d7560c7c65, null, false]`"
+  },
+  {
+    "duration": 16,
+    "start": "2020-07-28T09:31:20.283068",
+    "end": "2020-07-28T09:31:20.299965",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[modality_resource:a9e2a60a-70c7-46ca-a631-74a24baa1b7c, null, false]`"
+  },
+  {
+    "duration": 37,
+    "start": "2020-07-28T09:31:20.299999",
+    "end": "2020-07-28T09:31:20.337902",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[modality_resource:a9e2a60a-70c7-46ca-a631-74a24baa1b7c, null, false]`"
+  },
+  {
+    "duration": 26,
+    "start": "2020-07-28T09:31:20.338519",
+    "end": "2020-07-28T09:31:20.364977",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[medical_investigation:dcf0d719-ff0f-49d8-9870-207dc844daf1, null, false]`"
+  },
+  {
+    "duration": 12,
+    "start": "2020-07-28T09:31:20.365029",
+    "end": "2020-07-28T09:31:20.377063",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[medical_investigation:dcf0d719-ff0f-49d8-9870-207dc844daf1, null, false]`"
+  },
+  {
+    "duration": 17,
+    "start": "2020-07-28T09:31:20.377725",
+    "end": "2020-07-28T09:31:20.395645",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[body_region:2b5e4c31-8823-4e88-b4e9-28c2ecf3c8b6, null, false]`"
+  },
+  {
+    "duration": 25,
+    "start": "2020-07-28T09:31:20.395729",
+    "end": "2020-07-28T09:31:20.421679",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[body_region:2b5e4c31-8823-4e88-b4e9-28c2ecf3c8b6, null, false]`"
+  },
+  {
+    "duration": 27,
+    "start": "2020-07-28T09:31:20.422555",
+    "end": "2020-07-28T09:31:20.450239",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[center:47e94e29-f2a3-4b13-b7cb-40870dd20072, null, false]`"
+  },
+  {
+    "duration": 20,
+    "start": "2020-07-28T09:31:20.450395",
+    "end": "2020-07-28T09:31:20.470880",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[center:47e94e29-f2a3-4b13-b7cb-40870dd20072, null, false]`"
+  },
+  {
+    "duration": 20,
+    "start": "2020-07-28T09:31:20.472594",
+    "end": "2020-07-28T09:31:20.492688",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[center:47e94e29-f2a3-4b13-b7cb-40870dd20072:modalities:599e30e6-43b0-42e9-8f82-5bdecf0bca1b, null, false]`"
+  },
+  {
+    "duration": 18,
+    "start": "2020-07-28T09:31:20.492735",
+    "end": "2020-07-28T09:31:20.511410",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[center:47e94e29-f2a3-4b13-b7cb-40870dd20072:modalities:599e30e6-43b0-42e9-8f82-5bdecf0bca1b, null, false]`"
+  },
+  {
+    "duration": 12,
+    "start": "2020-07-28T09:31:20.511793",
+    "end": "2020-07-28T09:31:20.524655",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[center:47e94e29-f2a3-4b13-b7cb-40870dd20072:modalities:c8a49581-32e4-468c-a879-1e76418483bf, null, false]`"
+  },
+  {
+    "duration": 22,
+    "start": "2020-07-28T09:31:20.524703",
+    "end": "2020-07-28T09:31:20.547541",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[center:47e94e29-f2a3-4b13-b7cb-40870dd20072:modalities:c8a49581-32e4-468c-a879-1e76418483bf, null, false]`"
+  },
+  {
+    "duration": 12,
+    "start": "2020-07-28T09:31:20.548025",
+    "end": "2020-07-28T09:31:20.560627",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[modality_resource:360ad388-20a1-4540-9a25-e5d7560c7c65, null, false]`"
+  },
+  {
+    "duration": 11,
+    "start": "2020-07-28T09:31:20.560685",
+    "end": "2020-07-28T09:31:20.572627",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[modality_resource:360ad388-20a1-4540-9a25-e5d7560c7c65, null, false]`"
+  },
+  {
+    "duration": 16,
+    "start": "2020-07-28T09:31:20.572942",
+    "end": "2020-07-28T09:31:20.589160",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[modality_resource:a9e2a60a-70c7-46ca-a631-74a24baa1b7c, null, false]`"
+  },
+  {
+    "duration": 5,
+    "start": "2020-07-28T09:31:20.589263",
+    "end": "2020-07-28T09:31:20.594841",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[modality_resource:a9e2a60a-70c7-46ca-a631-74a24baa1b7c, null, false]`"
+  },
+  {
+    "duration": 18,
+    "start": "2020-07-28T09:31:20.595353",
+    "end": "2020-07-28T09:31:20.613516",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[modality_resource:360ad388-20a1-4540-9a25-e5d7560c7c65, null, false]`"
+  },
+  {
+    "duration": 7,
+    "start": "2020-07-28T09:31:20.613561",
+    "end": "2020-07-28T09:31:20.621139",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[modality_resource:360ad388-20a1-4540-9a25-e5d7560c7c65, null, false]`"
+  },
+  {
+    "duration": 28,
+    "start": "2020-07-28T09:31:20.621606",
+    "end": "2020-07-28T09:31:20.650502",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[modality_resource:a9e2a60a-70c7-46ca-a631-74a24baa1b7c, null, false]`"
+  },
+  {
+    "duration": 34,
+    "start": "2020-07-28T09:31:20.650583",
+    "end": "2020-07-28T09:31:20.685516",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[modality_resource:a9e2a60a-70c7-46ca-a631-74a24baa1b7c, null, false]`"
+  },
+  {
+    "duration": 13,
+    "start": "2020-07-28T09:31:20.686021",
+    "end": "2020-07-28T09:31:20.699251",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[sedativum:d225417b-4339-4c21-8555-1e51e034560b, null, false]`"
+  },
+  {
+    "duration": 5,
+    "start": "2020-07-28T09:31:20.699289",
+    "end": "2020-07-28T09:31:20.704469",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[sedativum:d225417b-4339-4c21-8555-1e51e034560b, null, false]`"
+  },
+  {
+    "duration": 7,
+    "start": "2020-07-28T09:31:20.704865",
+    "end": "2020-07-28T09:31:20.712224",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[sedativum:f38bdefa-9f83-43d6-9333-3fdeb2ff564b, null, false]`"
+  },
+  {
+    "duration": 10,
+    "start": "2020-07-28T09:31:20.712310",
+    "end": "2020-07-28T09:31:20.723018",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[sedativum:f38bdefa-9f83-43d6-9333-3fdeb2ff564b, null, false]`"
+  },
+  {
+    "duration": 6,
+    "start": "2020-07-28T09:31:20.723503",
+    "end": "2020-07-28T09:31:20.730300",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[contrast_media:ac253591-aac2-40f6-89b3-673202bd3e41, null, false]`"
+  },
+  {
+    "duration": 22,
+    "start": "2020-07-28T09:31:20.730329",
+    "end": "2020-07-28T09:31:20.753109",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[contrast_media:ac253591-aac2-40f6-89b3-673202bd3e41, null, false]`"
+  },
+  {
+    "duration": 15,
+    "start": "2020-07-28T09:31:20.753752",
+    "end": "2020-07-28T09:31:20.768864",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[contrast_media:6db6d7ff-c288-4fba-aa48-c67e067e8b1b, null, false]`"
+  },
+  {
+    "duration": 17,
+    "start": "2020-07-28T09:31:20.768898",
+    "end": "2020-07-28T09:31:20.786786",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[contrast_media:6db6d7ff-c288-4fba-aa48-c67e067e8b1b, null, false]`"
+  },
+  {
+    "duration": 20,
+    "start": "2020-07-28T09:31:20.787507",
+    "end": "2020-07-28T09:31:20.808031",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[order:94d5827a-c966-45b9-8f3a-b1e39082e858:examinationTechnique:d01a5562-9c5e-413d-b60a-84354f4367dc, null, false]`"
+  },
+  {
+    "duration": 12,
+    "start": "2020-07-28T09:31:20.808069",
+    "end": "2020-07-28T09:31:20.820319",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[order:94d5827a-c966-45b9-8f3a-b1e39082e858:examinationTechnique:d01a5562-9c5e-413d-b60a-84354f4367dc, null, false]`"
+  },
+  {
+    "duration": 8,
+    "start": "2020-07-28T09:31:20.821891",
+    "end": "2020-07-28T09:31:20.830309",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[modality_resource:360ad388-20a1-4540-9a25-e5d7560c7c65, null, false]`"
+  },
+  {
+    "duration": 16,
+    "start": "2020-07-28T09:31:20.830509",
+    "end": "2020-07-28T09:31:20.847320",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[modality_resource:360ad388-20a1-4540-9a25-e5d7560c7c65, null, false]`"
+  },
+  {
+    "duration": 21,
+    "start": "2020-07-28T09:31:20.847672",
+    "end": "2020-07-28T09:31:20.869206",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[center:47e94e29-f2a3-4b13-b7cb-40870dd20072:modalities:599e30e6-43b0-42e9-8f82-5bdecf0bca1b, null, false]`"
+  },
+  {
+    "duration": 18,
+    "start": "2020-07-28T09:31:20.869253",
+    "end": "2020-07-28T09:31:20.887497",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[center:47e94e29-f2a3-4b13-b7cb-40870dd20072:modalities:599e30e6-43b0-42e9-8f82-5bdecf0bca1b, null, false]`"
+  },
+  {
+    "duration": 28,
+    "start": "2020-07-28T09:31:20.887925",
+    "end": "2020-07-28T09:31:20.916740",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[modality_resource:360ad388-20a1-4540-9a25-e5d7560c7c65, null, false]`"
+  },
+  {
+    "duration": 18,
+    "start": "2020-07-28T09:31:20.916776",
+    "end": "2020-07-28T09:31:20.935735",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[modality_resource:360ad388-20a1-4540-9a25-e5d7560c7c65, null, false]`"
+  },
+  {
+    "duration": 18,
+    "start": "2020-07-28T09:31:20.936079",
+    "end": "2020-07-28T09:31:20.955039",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[modality_resource:a9e2a60a-70c7-46ca-a631-74a24baa1b7c, null, false]`"
+  },
+  {
+    "duration": 13,
+    "start": "2020-07-28T09:31:20.955093",
+    "end": "2020-07-28T09:31:20.968392",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[modality_resource:a9e2a60a-70c7-46ca-a631-74a24baa1b7c, null, false]`"
+  },
+  {
+    "duration": 11,
+    "start": "2020-07-28T09:31:20.969011",
+    "end": "2020-07-28T09:31:20.980264",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[order:94d5827a-c966-45b9-8f3a-b1e39082e858:requestedReporter:a04a70c9-5160-4d9b-b496-8de5409f77bb, null, false]`"
+  },
+  {
+    "duration": 13,
+    "start": "2020-07-28T09:31:20.980307",
+    "end": "2020-07-28T09:31:20.993786",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[order:94d5827a-c966-45b9-8f3a-b1e39082e858:requestedReporter:a04a70c9-5160-4d9b-b496-8de5409f77bb, null, false]`"
+  },
+  {
+    "duration": 23,
+    "start": "2020-07-28T09:31:20.995491",
+    "end": "2020-07-28T09:31:21.018951",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[organization:f2b7eaf6-d375-41e8-80b3-881e1cfa58fa, null, false]`"
+  },
+  {
+    "duration": 24,
+    "start": "2020-07-28T09:31:21.018989",
+    "end": "2020-07-28T09:31:21.043806",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[organization:f2b7eaf6-d375-41e8-80b3-881e1cfa58fa, null, false]`"
+  },
+  {
+    "duration": 19,
+    "start": "2020-07-28T09:31:21.047135",
+    "end": "2020-07-28T09:31:21.066460",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[accounting:f4c43854-fbf3-463c-bcce-ecaed57c408c, null, false]`"
+  },
+  {
+    "duration": 26,
+    "start": "2020-07-28T09:31:21.066507",
+    "end": "2020-07-28T09:31:21.092977",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[accounting:f4c43854-fbf3-463c-bcce-ecaed57c408c, null, false]`"
+  },
+  {
+    "duration": 19,
+    "start": "2020-07-28T09:31:21.093754",
+    "end": "2020-07-28T09:31:21.112978",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[physician:18ebf448-9c9a-436f-b623-3c6b985dbad0, null, false]`"
+  },
+  {
+    "duration": 17,
+    "start": "2020-07-28T09:31:21.113050",
+    "end": "2020-07-28T09:31:21.130273",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[physician:18ebf448-9c9a-436f-b623-3c6b985dbad0, null, false]`"
+  },
+  {
+    "duration": 5,
+    "start": "2020-07-28T09:31:21.131513",
+    "end": "2020-07-28T09:31:21.137375",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[physician:11355733-85d4-4647-a5b1-e98b7e58d336, null, false]`"
+  },
+  {
+    "duration": 41,
+    "start": "2020-07-28T09:31:21.137413",
+    "end": "2020-07-28T09:31:21.179312",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[physician:11355733-85d4-4647-a5b1-e98b7e58d336, null, false]`"
+  },
+  {
+    "duration": 6,
+    "start": "2020-07-28T09:31:21.182464",
+    "end": "2020-07-28T09:31:21.189252",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[physician:d68fadd8-a1aa-4d6c-becf-622ab7e0a722, null, false]`"
+  },
+  {
+    "duration": 6,
+    "start": "2020-07-28T09:31:21.189292",
+    "end": "2020-07-28T09:31:21.195679",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[physician:d68fadd8-a1aa-4d6c-becf-622ab7e0a722, null, false]`"
+  },
+  {
+    "duration": 19,
+    "start": "2020-07-28T09:31:21.196672",
+    "end": "2020-07-28T09:31:21.216365",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[physician:528afd08-d419-4958-8b04-0c3674be4de3, null, false]`"
+  },
+  {
+    "duration": 9,
+    "start": "2020-07-28T09:31:21.216442",
+    "end": "2020-07-28T09:31:21.225631",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[physician:528afd08-d419-4958-8b04-0c3674be4de3, null, false]`"
+  },
+  {
+    "duration": 20,
+    "start": "2020-07-28T09:31:21.227076",
+    "end": "2020-07-28T09:31:21.247512",
+    "info": "Invoked BlockingMadDBHttpClient method `headDoc` with args `[physician:d68fadd8-a1aa-4d6c-becf-622ab7e0a722, null, false]`"
+  },
+  {
+    "duration": 15,
+    "start": "2020-07-28T09:31:21.247547",
+    "end": "2020-07-28T09:31:21.263107",
+    "info": "Invoked BlockingMadDBHttpClient method `getDoc` with args `[physician:d68fadd8-a1aa-4d6c-becf-622ab7e0a722, null, false]`"
+  },
+  {
+    "duration": 1866,
+    "start": "2020-07-28T09:31:19.448973",
+    "end": "2020-07-28T09:31:21.315319",
+    "info": "Http Req http://localhost:8080/graphql with Body {\"operationName\":\"order\",\"variables\":{\"id\":\"order:94d5827a-c966-45b9-8f3a-b1e39082e858\"},\"query\":\"query order($id: ID!) {\\n  order(id: $id) {\\n    id\\n    rev\\n    accountingData {\\n      accounting {\\n        type\\n        id\\n        __typename\\n      }\\n      ... on AccountingDataPrivate {\\n        id\\n        rev\\n        contractorCode\\n        insurer\\n        insurerNumber\\n        name {\\n          familyName\\n          givenName\\n          __typename\\n        }\\n        __typename\\n      }\\n      billing {\\n        ...BillingFields\\n        __typename\\n      }\\n      ... on AccountingDataElia {\\n        id\\n        rev\\n        accidentDate\\n        address {\\n          city\\n          postalCode\\n          street\\n          __typename\\n        }\\n        institutionIdentifier\\n        institutionName\\n        medicalTreatment\\n        additionalAccountingData {\\n          ... on AdditionalAccountingDataPrivate {\\n            insuranceName\\n            insuranceNumber\\n            insuredName {\\n              givenName\\n              familyName\\n              __typename\\n            }\\n            insuredNumber\\n            __typename\\n          }\\n          ... on AdditionalAccountingDataStatutory {\\n            dateOfReferralLetter\\n            insuranceName\\n            insuranceNumber\\n            insuredNumber\\n            medicalInstitutionIdentificationNumber\\n            physicianNumberLANR\\n            quarter {\\n              quarter\\n              year\\n              __typename\\n            }\\n            __typename\\n          }\\n          __typename\\n        }\\n        __typename\\n      }\\n      ... on AccountingDataStatutory {\\n        id\\n        rev\\n        dateOfReferralLetter\\n        insuranceName\\n        insuranceNumber\\n        insuredNumber\\n        medicalInstitutionIdentificationNumber\\n        physicianNumberLANR\\n        quarter {\\n          quarter\\n          year\\n          __typename\\n        }\\n        __typename\\n      }\\n      ... on AccountingDataDirectPayer {\\n        id\\n        rev\\n        __typename\\n      }\\n      __typename\\n    }\\n    admissionChecklist {\\n      ...AdmissionChecklistFields\\n      __typename\\n    }\\n    admissionDateTime\\n    center {\\n      ...EmbeddedCenterFields\\n      __typename\\n    }\\n    cancellation {\\n      ...CancellationFields\\n      __typename\\n    }\\n    duration\\n    examinationData {\\n      ...ExaminationDataFields\\n      __typename\\n    }\\n    examinationDateTime\\n    medicalData {\\n      ...MedicalDataFields\\n      __typename\\n    }\\n    medicationData {\\n      ...MedicationDataFields\\n      __typename\\n    }\\n    medicalReferences {\\n      ...MedicalReferencesFields\\n      __typename\\n    }\\n    notes {\\n      ...NoteFields\\n      __typename\\n    }\\n    orderData {\\n      ...OrderDataFields\\n      __typename\\n    }\\n    patient {\\n      ...PatientFields\\n      __typename\\n    }\\n    examinationTechnique {\\n      ...ExaminationTechniqueFields\\n      __typename\\n    }\\n    referrer {\\n      ...ReferrerFields\\n      __typename\\n    }\\n    requestedReporter {\\n      ...RequestedPhysicianReporterFields\\n      __typename\\n    }\\n    centerProcess {\\n      ...PatientCareFields\\n      __typename\\n    }\\n    examinationTechnique {\\n      ...ExaminationTechniqueFields\\n      __typename\\n    }\\n    duration\\n    __typename\\n  }\\n}\\n\\nfragment EmbeddedCenterFields on EmbeddedCenter {\\n  code\\n  name\\n  timeZoneId\\n  __typename\\n}\\n\\nfragment RequestedPhysicianReporterFields on RequestedPhysicianReporter {\\n  rev\\n  organization {\\n    name\\n    externalRef {\\n      id\\n      __typename\\n    }\\n    __typename\\n  }\\n  physician {\\n    name {\\n      givenName\\n      familyName\\n      __typename\\n    }\\n    externalRef {\\n      id\\n      __typename\\n    }\\n    __typename\\n  }\\n  __typename\\n}\\n\\nfragment AdmissionChecklistFields on AdmissionChecklist {\\n  consentDeclarationAccepted\\n  id\\n  rev\\n  __typename\\n}\\n\\nfragment BillingFields on Billing {\\n  address {\\n    ...AddressFields\\n    __typename\\n  }\\n  emailContact {\\n    ...BillingContactFields\\n    __typename\\n  }\\n  faxContact {\\n    ...BillingContactFields\\n    __typename\\n  }\\n  subject {\\n    ...SubjectFields\\n    __typename\\n  }\\n  __typename\\n}\\n\\nfragment AddressFields on Address {\\n  addition\\n  city\\n  countryCode\\n  street\\n  postalCode\\n  __typename\\n}\\n\\nfragment BillingContactFields on Contact {\\n  contactType\\n  label\\n  ... on EmailContact {\\n    email\\n    __typename\\n  }\\n  ... on FaxContact {\\n    number\\n    __typename\\n  }\\n  __typename\\n}\\n\\nfragment SubjectFields on Name {\\n  familyName\\n  namePrefix\\n  givenName\\n  middleNames\\n  __typename\\n}\\n\\nfragment ExaminationDataFields on ExaminationData {\\n  id\\n  rev\\n  sedativeRequested\\n  bodyRegion {\\n    ...EmbeddedBodyRegionFields\\n    __typename\\n  }\\n  contrastMediaRequested\\n  medicalInvestigation {\\n    ...EmbeddedMedicalInvestigationFields\\n    __typename\\n  }\\n  modality {\\n    ...EmbeddedModalityFields\\n    __typename\\n  }\\n  __typename\\n}\\n\\nfragment EmbeddedBodyRegionFields on EmbeddedBodyRegion {\\n  code\\n  laterality\\n  externalRef {\\n    id\\n    __typename\\n  }\\n  __typename\\n}\\n\\nfragment EmbeddedMedicalInvestigationFields on EmbeddedMedicalInvestigation {\\n  code\\n  defaultLocalizedName\\n  externalRef {\\n    id\\n    __typename\\n  }\\n  __typename\\n}\\n\\nfragment EmbeddedModalityFields on EmbeddedModality {\\n  code\\n  description\\n  name\\n  type\\n  externalRef {\\n    id\\n    __typename\\n  }\\n  __typename\\n}\\n\\nfragment NoteFields on Note {\\n  content {\\n    value\\n    __typename\\n  }\\n  user {\\n    ...UserFields\\n    __typename\\n  }\\n  __typename\\n}\\n\\nfragment UserFields on User {\\n  avatar\\n  name {\\n    ...NameFields\\n    __typename\\n  }\\n  __typename\\n}\\n\\nfragment NameFields on Name {\\n  familyName\\n  givenName\\n  middleNames\\n  namePrefix\\n  nameSuffix\\n  nickName\\n  __typename\\n}\\n\\nfragment OrderDataFields on OrderData {\\n  id\\n  rev\\n  icdCodes\\n  orderText\\n  suspectedDiagnosis\\n  comment\\n  anamnese {\\n    ...AnamneseFields\\n    __typename\\n  }\\n  __typename\\n}\\n\\nfragment AnamneseFields on Anamnese {\\n  id\\n  rev\\n  content\\n  __typename\\n}\\n\\nfragment PatientFields on Patient {\\n  id\\n  rev\\n  sex\\n  dateOfBirth\\n  name {\\n    familyName\\n    givenName\\n    namePrefix\\n    middleNames\\n    __typename\\n  }\\n  address {\\n    ...AddressFields\\n    __typename\\n  }\\n  emailContacts {\\n    contactType\\n    email\\n    label\\n    __typename\\n  }\\n  phoneContacts {\\n    contactType\\n    label\\n    number\\n    __typename\\n  }\\n  addressContacts {\\n    contactType\\n    label\\n    address {\\n      ...AddressFields\\n      __typename\\n    }\\n    __typename\\n  }\\n  faxContacts {\\n    contactType\\n    label\\n    number\\n    __typename\\n  }\\n  mobileContacts {\\n    contactType\\n    label\\n    number\\n    __typename\\n  }\\n  __typename\\n}\\n\\nfragment ExaminationTechniqueFields on ExaminationTechnique {\\n  id\\n  rev\\n  modalityId\\n  modalityResourcesIds\\n  note\\n  sequences\\n  __typename\\n}\\n\\nfragment PatientCareFields on PatientCare {\\n  currentState\\n  possibleTransitions\\n  id\\n  rev\\n  __typename\\n}\\n\\nfragment MedicalDataFields on MedicalData {\\n  id\\n  rev\\n  bodySize {\\n    value\\n    unit\\n    __typename\\n  }\\n  weight {\\n    value\\n    unit\\n    __typename\\n  }\\n  laboratoryValues {\\n    type\\n    unit\\n    value\\n    measuredAt\\n    __typename\\n  }\\n  pregnancy {\\n    checked\\n    note\\n    __typename\\n  }\\n  surgery {\\n    checked\\n    note\\n    __typename\\n  }\\n  implants {\\n    checked\\n    entries {\\n      note\\n      type\\n      __typename\\n    }\\n    __typename\\n  }\\n  __typename\\n}\\n\\nfragment ReferrerFields on Referrer {\\n  rev\\n  id\\n  organization {\\n    externalRef {\\n      id\\n      __typename\\n    }\\n    __typename\\n  }\\n  physician {\\n    externalRef {\\n      id\\n      __typename\\n    }\\n    __typename\\n  }\\n  __typename\\n}\\n\\nfragment MedicationDataFields on MedicationData {\\n  id\\n  rev\\n  note\\n  contrastMedia {\\n    ...MedicationFields\\n    __typename\\n  }\\n  sedativum {\\n    ...MedicationFields\\n    __typename\\n  }\\n  __typename\\n}\\n\\nfragment MedicationFields on Medication {\\n  administeredAt\\n  charge\\n  dosageForm\\n  name\\n  note\\n  unit\\n  value\\n  __typename\\n}\\n\\nfragment MedicalReferencesFields on MedicalReferences {\\n  generalStudyModule {\\n    accessionNumber\\n    studyInstanceUID\\n    __typename\\n  }\\n  patientModule {\\n    issuerOfPatientID\\n    patientID\\n    __typename\\n  }\\n  __typename\\n}\\n\\nfragment CancellationFields on Cancellation {\\n  note\\n  reason\\n  __typename\\n}\\n\"}"
+  }
+]
